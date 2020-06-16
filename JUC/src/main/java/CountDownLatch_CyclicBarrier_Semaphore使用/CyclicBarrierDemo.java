@@ -15,6 +15,7 @@ import java.util.concurrent.CyclicBarrier;
 public class CyclicBarrierDemo {
     public static void main(String[] args) {
         CyclicBarrier cyclicBarrier = new CyclicBarrier(7,()->{
+            // 只有执行了7个线程后, 主线程才会执行
             System.out.println(Thread.currentThread().getName()+"\t 开始召唤神龙");
         });
         for (int i = 1; i <=7; i++) {
