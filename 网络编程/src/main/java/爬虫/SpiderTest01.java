@@ -1,3 +1,5 @@
+package 爬虫;
+
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -49,6 +51,7 @@ public class SpiderTest01 {
          br.close();
          //分析
          // 处理
+
 
     }
 }
