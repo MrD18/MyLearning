@@ -10,6 +10,6 @@ public class TalkStudent {
 //            new TalkSend(7777,"localhost",9999);
 //          }, "发送").start();
 //
-        new Thread(new TalkSend(7777,"localhost",9999)).start();//发送
+        new Thread(new TalkSend(7777,"127.0.0.1",9999)).start();//发送
     }
 }

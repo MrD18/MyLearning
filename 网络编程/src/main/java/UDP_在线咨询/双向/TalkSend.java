@@ -34,13 +34,12 @@ public class TalkSend implements  Runnable{
     public void run() {
         while (true) {
             String data;
+            DatagramPacket datagramPacket;
             try {
                 data = reader.readLine();
                 byte[] dataBytes = data.getBytes();
                 // 3. 封装成DatagramPacket 包裹,需要指定目的地
-                DatagramPacket datagramPacket = new DatagramPacket(dataBytes,
-                                                                  0,
-                                                                   dataBytes.length,
+                datagramPacket  = new DatagramPacket(dataBytes, 0, dataBytes.length,
                                                                    new InetSocketAddress(this.toIP, this.toPort));
                 // 4. 发送包裹send(DatagramPacket p)
                 client.send(datagramPacket);
