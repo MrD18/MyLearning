@@ -21,12 +21,15 @@ public class TalkReceive implements Runnable {
   }
     @Override
     public void run() {
-        while (true) {
+        System.out.println("开始接收...");
 
+        while (true) {
+            DatagramPacket packet;
             try {
                 //2.准备容器  都是字节数组
                 byte[] container = new byte[1024];
-                DatagramPacket packet = new DatagramPacket(container, 0, container.length);
+                packet  = new DatagramPacket(container, 0, container.length);
+                server.receive(packet);
                 //4.分析数据
                 int length = packet.getLength();
                 byte[] datas = packet.getData();
@@ -35,7 +38,6 @@ public class TalkReceive implements Runnable {
                 if (data.equals("Bye")){
                     break;
                 }
-                server.receive(packet);
             } catch (IOException e) {
                 e.printStackTrace();
             }

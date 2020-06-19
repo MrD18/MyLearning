@@ -32,6 +32,7 @@ public class TalkSend implements  Runnable{
     }
     @Override
     public void run() {
+        System.out.println("开始发送。。。");
         while (true) {
             String data;
             DatagramPacket datagramPacket;
