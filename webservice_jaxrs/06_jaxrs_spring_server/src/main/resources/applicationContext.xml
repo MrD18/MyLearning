@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:cxf="http://cxf.apache.org/core"
+       xmlns:jaxws="http://cxf.apache.org/jaxws"
+       xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://cxf.apache.org/core
+        http://cxf.apache.org/schemas/core.xsd
+        http://cxf.apache.org/jaxws
+        http://cxf.apache.org/schemas/jaxws.xsd
+        http://cxf.apache.org/jaxrs
+        http://cxf.apache.org/schemas/jaxrs.xsd">
+
+        <!--
+            Spring整合cxf发布基于restful风格的服务，关键点：
+            1. 服务地址
+            2. 服务类
+            服务完整访问地址：
+                http://localhost:8080/ws/userService
+        -->
+        <jaxrs:server address="/userService">
+
+                <jaxrs:serviceBeans>
+                    <bean class="com.yss.service.IUserServiceImpl"></bean>
+                </jaxrs:serviceBeans>
+<!--                <jaxrs:inInterceptors>-->
+<!--                        <bean class="org.apache.cxf.interceptor.LoggingInInterceptor"></bean>-->
+<!--                </jaxrs:inInterceptors>-->
+<!--                <jaxrs:outInterceptors>-->
+<!--                        <bean class="org.apache.cxf.interceptor.LoggingOutInterceptor"></bean>-->
+<!--                </jaxrs:outInterceptors>-->
+
+        </jaxrs:server>
+
+</beans>

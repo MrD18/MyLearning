@@ -1,0 +1,2 @@
+1. 在这里我们将服务端提供的地址: http://localhost:8080/ws/hello 配置在了applicationContext.xml中
+2. 客户端提供了,入参数据,  服务端相应的提供了反参数据

@@ -1,0 +1,1359 @@
+2020-06-22 10:59:22,859 0      [           main] INFO  apache.cxf.endpoint.ServerImpl  - Setting the server's publish address to be http://localhost:8001/ws/
+2020-06-22 10:59:22,966 107    [           main] INFO  rg.eclipse.jetty.server.Server  - jetty-8.1.15.v20140411
+2020-06-22 10:59:23,765 906    [           main] INFO  jetty.server.AbstractConnector  - Started SelectChannelConnector@localhost:8001
+2020-06-22 10:59:57,323 0      [           main] INFO  apache.cxf.endpoint.ServerImpl  - Setting the server's publish address to be http://localhost:8002/dh/
+2020-06-22 10:59:57,370 47     [           main] INFO  rg.eclipse.jetty.server.Server  - jetty-8.1.15.v20140411
+2020-06-22 10:59:58,171 848    [           main] INFO  jetty.server.AbstractConnector  - Started SelectChannelConnector@localhost:8002
+2020-06-22 11:00:05,554 8231   [qtp175408781-19] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8002/dh/
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html, application/xhtml+xml, image/jxr, */*], accept-encoding=[gzip, deflate], Accept-Language=[zh-CN], connection=[keep-alive], Content-Type=[null], Host=[localhost:8002], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko]}
+--------------------------------------
+2020-06-22 11:00:05,554 8231   [qtp175408781-19] WARN  interceptor.JAXRSInInterceptor  - No root resource matching request path /dh/ has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+2020-06-22 11:00:05,569 8246   [qtp175408781-19] WARN  .WebApplicationExceptionMapper  - javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-06-22 11:00:05,585 8262   [qtp175408781-19] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Mon, 22 Jun 2020 03:00:05 GMT], Content-Length=[0]}
+--------------------------------------
+2020-06-22 11:00:25,905 28582  [qtp175408781-17] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8002/dh/
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7], connection=[keep-alive], Content-Type=[null], Cookie=[Idea-6c4f8395=0344e984-28a6-4001-81ce-8af068e9d8d1; Hm_lvt_e9e114d958ea263de46e080563e254c4=1584584615], Host=[localhost:8002], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-06-22 11:00:25,907 28584  [qtp175408781-17] WARN  interceptor.JAXRSInInterceptor  - No root resource matching request path /dh/ has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+2020-06-22 11:00:25,907 28584  [qtp175408781-17] WARN  .WebApplicationExceptionMapper  - javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-06-22 11:00:25,908 28585  [qtp175408781-17] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Mon, 22 Jun 2020 03:00:25 GMT], Content-Length=[0]}
+--------------------------------------
+2020-06-22 11:01:53,276 115953 [qtp175408781-16] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8002/dh/userService
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7], connection=[keep-alive], Content-Type=[null], Cookie=[Idea-6c4f8395=0344e984-28a6-4001-81ce-8af068e9d8d1; Hm_lvt_e9e114d958ea263de46e080563e254c4=1584584615], Host=[localhost:8002], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-06-22 11:01:53,278 115955 [qtp175408781-16] WARN  che.cxf.jaxrs.utils.JAXRSUtils  - No operation matching request path "/dh/userService" is found, Relative Path: /, HTTP Method: GET, ContentType: */*, Accept: text/html,application/xhtml+xml,image/webp,image/apng,application/xml;q=0.9,application/signed-exchange;q=0.9;v=b3,*/*;q=0.8,. Please enable FINE/TRACE log level for more details.
+2020-06-22 11:01:53,278 115955 [qtp175408781-16] WARN  .WebApplicationExceptionMapper  - javax.ws.rs.ClientErrorException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:157)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:526)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:177)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-06-22 11:01:53,279 115956 [qtp175408781-16] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 3
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Mon, 22 Jun 2020 03:01:53 GMT], Content-Length=[0]}
+--------------------------------------
+2020-06-22 11:02:09,034 131711 [qtp175408781-20] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8002/dh/userService/user
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7], connection=[keep-alive], Content-Type=[null], Cookie=[Idea-6c4f8395=0344e984-28a6-4001-81ce-8af068e9d8d1; Hm_lvt_e9e114d958ea263de46e080563e254c4=1584584615], Host=[localhost:8002], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-06-22 11:02:09,115 131792 [qtp175408781-20] WARN  .provider.AbstractJAXBProvider  - com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalCollectionMember(JAXBElementProvider.java:413)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalCollection(JAXBElementProvider.java:382)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.writeTo(JAXBElementProvider.java:313)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-06-22 11:02:09,117 131794 [qtp175408781-20] ERROR che.cxf.jaxrs.utils.JAXRSUtils  - Problem with writing the data, class java.util.ArrayList, ContentType: application/xml
+2020-06-22 11:02:09,118 131795 [qtp175408781-20] WARN  .WebApplicationExceptionMapper  - javax.ws.rs.InternalServerErrorException: HTTP 500 Internal Server Error
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toInternalServerErrorException(SpecExceptions.java:79)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toInternalServerErrorException(ExceptionUtils.java:101)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleExceptionEnd(AbstractJAXBProvider.java:725)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleJAXBException(AbstractJAXBProvider.java:742)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.writeTo(JAXBElementProvider.java:321)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalCollectionMember(JAXBElementProvider.java:413)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalCollection(JAXBElementProvider.java:382)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.writeTo(JAXBElementProvider.java:313)
+	... 28 more
+
+2020-06-22 11:02:09,119 131796 [qtp175408781-20] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 4
+Response-Code: 500
+Content-Type: text/plain
+Headers: {Content-Type=[text/plain]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users>JAXBException occurred : 1 counts of IllegalAnnotationExceptions. 
+--------------------------------------
+2020-06-22 11:03:19,860 202537 [qtp175408781-20] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8002/dh/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[0], Content-Type=[null], Host=[localhost:8002], Postman-Token=[3955ed77-fd28-432c-9491-c1c2c5a9aa37], User-Agent=[PostmanRuntime/7.25.0]}
+--------------------------------------
+2020-06-22 11:03:19,861 202538 [qtp175408781-20] ERROR che.cxf.jaxrs.utils.JAXRSUtils  - No message body reader has been found for class org.yss.entity.User, ContentType: application/octet-stream
+2020-06-22 11:03:19,862 202539 [qtp175408781-20] WARN  .WebApplicationExceptionMapper  - javax.ws.rs.WebApplicationException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1298)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameter(JAXRSUtils.java:815)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:778)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:212)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-06-22 11:03:19,862 202539 [qtp175408781-20] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 5
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Mon, 22 Jun 2020 03:03:19 GMT], Content-Length=[0]}
+--------------------------------------
+2020-06-22 11:04:20,651 263328 [qtp175408781-16] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 6
+Address: http://localhost:8002/dh/userService/user
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8002], Postman-Token=[00f16744-4c43-485f-9de0-a2c536044aae], User-Agent=[PostmanRuntime/7.25.0]}
+--------------------------------------
+2020-06-22 11:04:20,658 263335 [qtp175408781-16] WARN  .provider.AbstractJAXBProvider  - com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalCollectionMember(JAXBElementProvider.java:413)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalCollection(JAXBElementProvider.java:382)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.writeTo(JAXBElementProvider.java:313)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-06-22 11:04:20,658 263335 [qtp175408781-16] ERROR che.cxf.jaxrs.utils.JAXRSUtils  - Problem with writing the data, class java.util.ArrayList, ContentType: application/xml
+2020-06-22 11:04:20,659 263336 [qtp175408781-16] WARN  .WebApplicationExceptionMapper  - javax.ws.rs.InternalServerErrorException: HTTP 500 Internal Server Error
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toInternalServerErrorException(SpecExceptions.java:79)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toInternalServerErrorException(ExceptionUtils.java:101)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleExceptionEnd(AbstractJAXBProvider.java:725)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleJAXBException(AbstractJAXBProvider.java:742)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.writeTo(JAXBElementProvider.java:321)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalCollectionMember(JAXBElementProvider.java:413)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalCollection(JAXBElementProvider.java:382)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.writeTo(JAXBElementProvider.java:313)
+	... 28 more
+
+2020-06-22 11:04:20,660 263337 [qtp175408781-16] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 6
+Response-Code: 500
+Content-Type: text/plain
+Headers: {Content-Type=[text/plain]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users>JAXBException occurred : 1 counts of IllegalAnnotationExceptions. 
+--------------------------------------
+2020-06-22 11:24:32,539 1475216 [qtp175408781-17] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 7
+Address: http://localhost:8002/dh/userService/user/1
+Http-Method: GET
+Content-Type: */*
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], content-type=[*/*], Host=[localhost:8002], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2020-06-22 11:24:32,555 1475232 [qtp175408781-17] WARN  .provider.AbstractJAXBProvider  - com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.marshal(JSONProvider.java:610)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:388)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-06-22 11:24:32,572 1475249 [qtp175408781-17] ERROR che.cxf.jaxrs.utils.JAXRSUtils  - Problem with writing the data, class org.yss.entity.User, ContentType: application/json
+2020-06-22 11:24:32,572 1475249 [qtp175408781-17] WARN  .WebApplicationExceptionMapper  - javax.ws.rs.InternalServerErrorException: HTTP 500 Internal Server Error
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toInternalServerErrorException(SpecExceptions.java:79)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toInternalServerErrorException(ExceptionUtils.java:101)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleExceptionEnd(AbstractJAXBProvider.java:725)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleJAXBException(AbstractJAXBProvider.java:742)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:392)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.marshal(JSONProvider.java:610)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:388)
+	... 28 more
+
+2020-06-22 11:24:32,572 1475249 [qtp175408781-17] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 7
+Response-Code: 500
+Content-Type: text/plain
+Headers: {Content-Type=[text/plain]}
+Payload: JAXBException occurred : 1 counts of IllegalAnnotationExceptions. 
+--------------------------------------
+2020-06-22 11:26:15,107 1577784 [qtp175408781-17] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 8
+Address: http://localhost:8002/dh/userService/user/1
+Http-Method: GET
+Content-Type: */*
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], content-type=[*/*], Host=[localhost:8002], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2020-06-22 11:26:15,107 1577784 [qtp175408781-17] WARN  .provider.AbstractJAXBProvider  - com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.marshal(JSONProvider.java:610)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:388)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-06-22 11:26:15,107 1577784 [qtp175408781-17] ERROR che.cxf.jaxrs.utils.JAXRSUtils  - Problem with writing the data, class org.yss.entity.User, ContentType: application/json
+2020-06-22 11:26:15,107 1577784 [qtp175408781-17] WARN  .WebApplicationExceptionMapper  - javax.ws.rs.InternalServerErrorException: HTTP 500 Internal Server Error
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toInternalServerErrorException(SpecExceptions.java:79)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toInternalServerErrorException(ExceptionUtils.java:101)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleExceptionEnd(AbstractJAXBProvider.java:725)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleJAXBException(AbstractJAXBProvider.java:742)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:392)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.marshal(JSONProvider.java:610)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:388)
+	... 28 more
+
+2020-06-22 11:26:15,107 1577784 [qtp175408781-17] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 8
+Response-Code: 500
+Content-Type: text/plain
+Headers: {Content-Type=[text/plain]}
+Payload: JAXBException occurred : 1 counts of IllegalAnnotationExceptions. 
+--------------------------------------
+2020-06-22 11:27:41,594 0      [           main] INFO  apache.cxf.endpoint.ServerImpl  - Setting the server's publish address to be http://localhost:8002/dh/
+2020-06-22 11:27:41,652 58     [           main] INFO  rg.eclipse.jetty.server.Server  - jetty-8.1.15.v20140411
+2020-06-22 11:27:42,451 857    [           main] INFO  jetty.server.AbstractConnector  - Started SelectChannelConnector@localhost:8002
+2020-06-22 11:28:05,964 24370  [qtp175408781-18] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8002/dh/userService/user/1
+Http-Method: GET
+Content-Type: */*
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], content-type=[*/*], Host=[localhost:8002], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2020-06-22 11:28:06,026 24432  [qtp175408781-18] WARN  .provider.AbstractJAXBProvider  - com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.marshal(JSONProvider.java:610)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:388)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-06-22 11:28:06,073 24479  [qtp175408781-18] ERROR che.cxf.jaxrs.utils.JAXRSUtils  - Problem with writing the data, class org.yss.entity.User, ContentType: application/json
+2020-06-22 11:28:06,073 24479  [qtp175408781-18] WARN  .WebApplicationExceptionMapper  - javax.ws.rs.InternalServerErrorException: HTTP 500 Internal Server Error
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toInternalServerErrorException(SpecExceptions.java:79)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toInternalServerErrorException(ExceptionUtils.java:101)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleExceptionEnd(AbstractJAXBProvider.java:725)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleJAXBException(AbstractJAXBProvider.java:742)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:392)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.marshal(JSONProvider.java:610)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:388)
+	... 28 more
+
+2020-06-22 11:28:06,073 24479  [qtp175408781-18] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 500
+Content-Type: text/plain
+Headers: {Content-Type=[text/plain]}
+Payload: JAXBException occurred : 1 counts of IllegalAnnotationExceptions. 
+--------------------------------------
+2020-06-22 11:29:42,720 121126 [qtp175408781-20] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8002/dh/userService/user
+Http-Method: GET
+Content-Type: */*
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], content-type=[*/*], Host=[localhost:8002], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2020-06-22 11:29:42,736 121142 [qtp175408781-20] WARN  .provider.AbstractJAXBProvider  - com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.marshalCollectionMember(JSONProvider.java:483)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.marshalCollection(JSONProvider.java:461)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:379)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-06-22 11:29:42,738 121144 [qtp175408781-20] ERROR che.cxf.jaxrs.utils.JAXRSUtils  - Problem with writing the data, class java.util.ArrayList, ContentType: application/json
+2020-06-22 11:29:42,739 121145 [qtp175408781-20] WARN  .WebApplicationExceptionMapper  - javax.ws.rs.InternalServerErrorException: HTTP 500 Internal Server Error
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toInternalServerErrorException(SpecExceptions.java:79)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toInternalServerErrorException(ExceptionUtils.java:101)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleExceptionEnd(AbstractJAXBProvider.java:725)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleJAXBException(AbstractJAXBProvider.java:742)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:392)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.marshalCollectionMember(JSONProvider.java:483)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.marshalCollection(JSONProvider.java:461)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:379)
+	... 28 more
+
+2020-06-22 11:29:42,741 121147 [qtp175408781-20] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 500
+Content-Type: text/plain
+Headers: {Content-Type=[text/plain]}
+Payload: {"User":[JAXBException occurred : 1 counts of IllegalAnnotationExceptions. 
+--------------------------------------
+2020-06-22 11:34:36,700 0      [           main] INFO  apache.cxf.endpoint.ServerImpl  - Setting the server's publish address to be http://localhost:8002/dh/
+2020-06-22 11:34:36,762 62     [           main] INFO  rg.eclipse.jetty.server.Server  - jetty-8.1.15.v20140411
+2020-06-22 11:34:37,564 864    [           main] INFO  jetty.server.AbstractConnector  - Started SelectChannelConnector@localhost:8002
+2020-06-22 11:34:46,769 10069  [qtp175408781-20] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8002/dh/userService/user/1
+Http-Method: GET
+Content-Type: */*
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], content-type=[*/*], Host=[localhost:8002], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2020-06-22 11:34:46,832 10132  [qtp175408781-20] WARN  .provider.AbstractJAXBProvider  - com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.marshal(JSONProvider.java:610)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:388)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-06-22 11:34:46,863 10163  [qtp175408781-20] ERROR che.cxf.jaxrs.utils.JAXRSUtils  - Problem with writing the data, class org.yss.entity.User, ContentType: application/json
+2020-06-22 11:34:46,863 10163  [qtp175408781-20] WARN  .WebApplicationExceptionMapper  - javax.ws.rs.InternalServerErrorException: HTTP 500 Internal Server Error
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toInternalServerErrorException(SpecExceptions.java:79)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toInternalServerErrorException(ExceptionUtils.java:101)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleExceptionEnd(AbstractJAXBProvider.java:725)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.handleJAXBException(AbstractJAXBProvider.java:742)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:392)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1363)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:117)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+org.yss.entity.User没有无参数默认构造器。
+	this problem is related to the following location:
+		at org.yss.entity.User
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getClassContext(AbstractJAXBProvider.java:530)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.getJAXBContext(AbstractJAXBProvider.java:512)
+	at org.apache.cxf.jaxrs.provider.AbstractJAXBProvider.createMarshaller(AbstractJAXBProvider.java:633)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.marshal(JSONProvider.java:610)
+	at org.apache.cxf.jaxrs.provider.json.JSONProvider.writeTo(JSONProvider.java:388)
+	... 28 more
+
+2020-06-22 11:34:46,863 10163  [qtp175408781-20] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 500
+Content-Type: text/plain
+Headers: {Content-Type=[text/plain]}
+Payload: JAXBException occurred : 1 counts of IllegalAnnotationExceptions. 
+--------------------------------------
+2020-06-22 11:35:58,133 0      [           main] INFO  apache.cxf.endpoint.ServerImpl  - Setting the server's publish address to be http://localhost:8002/dh/
+2020-06-22 11:35:58,195 62     [           main] INFO  rg.eclipse.jetty.server.Server  - jetty-8.1.15.v20140411
+2020-06-22 11:35:59,009 876    [           main] INFO  jetty.server.AbstractConnector  - Started SelectChannelConnector@localhost:8002
+2020-06-22 11:36:04,653 6520   [qtp175408781-21] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8002/dh/userService/user/1
+Http-Method: GET
+Content-Type: */*
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], content-type=[*/*], Host=[localhost:8002], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2020-06-22 11:36:04,794 6661   [qtp175408781-21] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 22 Jun 2020 03:36:04 GMT]}
+Payload: {"User":{"city":"广州","id":1,"username":"小明"}}
+--------------------------------------
+2020-06-22 11:36:31,555 33422  [qtp175408781-18] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8002/dh/userService/user
+Http-Method: GET
+Content-Type: */*
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], content-type=[*/*], Host=[localhost:8002], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2020-06-22 11:36:31,569 33436  [qtp175408781-18] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 22 Jun 2020 03:36:31 GMT]}
+Payload: {"User":[{"cars":[{"carName":"保时捷","id":101,"price":1000000},{"carName":"宝马","id":102,"price":4000000}],"city":"北京","id":1,"username":"小明"},{"city":"广州","id":2,"username":"小李"}]}
+--------------------------------------
+2020-06-22 11:38:15,003 136870 [qtp175408781-20] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8002/dh/userService/user/1
+Http-Method: GET
+Content-Type: */*
+Headers: {Accept=[application/xml], Cache-Control=[no-cache], connection=[keep-alive], content-type=[*/*], Host=[localhost:8002], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2020-06-22 11:38:15,018 136885 [qtp175408781-20] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 3
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Mon, 22 Jun 2020 03:38:15 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>广州</city><id>1</id><username>小明</username></User>
+--------------------------------------
+2020-06-22 11:38:36,157 158024 [qtp175408781-20] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8002/dh/userService/user
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8002], Postman-Token=[7c782aca-88db-4e30-a628-a1699fe85ab8], User-Agent=[PostmanRuntime/7.25.0]}
+--------------------------------------
+2020-06-22 11:38:36,164 158031 [qtp175408781-20] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 4
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Mon, 22 Jun 2020 03:38:36 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users><User><cars><carName>保时捷</carName><id>101</id><price>1000000.0</price></cars><cars><carName>宝马</carName><id>102</id><price>4000000.0</price></cars><city>北京</city><id>1</id><username>小明</username></User><User><city>广州</city><id>2</id><username>小李</username></User></Users>
+--------------------------------------
+2020-06-22 11:38:56,181 178048 [qtp175408781-20] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8002/dh/userService/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8002], Postman-Token=[51e57d2b-e2b7-439f-9423-f28842dc6a32], User-Agent=[PostmanRuntime/7.25.0]}
+--------------------------------------
+2020-06-22 11:38:56,182 178049 [qtp175408781-20] WARN  che.cxf.jaxrs.utils.JAXRSUtils  - No operation matching request path "/dh/userService/1" is found, Relative Path: /1, HTTP Method: GET, ContentType: */*, Accept: */*,. Please enable FINE/TRACE log level for more details.
+2020-06-22 11:38:56,193 178060 [qtp175408781-20] WARN  .WebApplicationExceptionMapper  - javax.ws.rs.ClientErrorException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:157)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:526)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:177)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-06-22 11:38:56,195 178062 [qtp175408781-20] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 5
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Mon, 22 Jun 2020 03:38:56 GMT], Content-Length=[0]}
+--------------------------------------
+2020-06-22 11:39:12,301 194168 [qtp175408781-18] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 6
+Address: http://localhost:8002/dh/userService/user/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8002], Postman-Token=[8f1f2180-13f2-4cb8-8ec6-23bc708d44dc], User-Agent=[PostmanRuntime/7.25.0]}
+--------------------------------------
+2020-06-22 11:39:12,304 194171 [qtp175408781-18] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 6
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Mon, 22 Jun 2020 03:39:12 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>广州</city><id>1</id><username>小明</username></User>
+--------------------------------------
+2020-06-22 11:39:26,770 208637 [qtp175408781-18] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 7
+Address: http://localhost:8002/dh/userService/user/findAll
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8002], Postman-Token=[fb95bd5c-7c1e-4459-af9a-26c3c34e2fe4], User-Agent=[PostmanRuntime/7.25.0]}
+--------------------------------------
+2020-06-22 11:39:26,771 208638 [qtp175408781-18] ERROR cxf.jaxrs.utils.InjectionUtils  - Class java.lang.Integer can not be instantiated using a constructor with a single String argument
+2020-06-22 11:39:26,771 208638 [qtp175408781-18] WARN  .WebApplicationExceptionMapper  - javax.ws.rs.ClientErrorException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:157)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:405)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.createParameterObject(InjectionUtils.java:944)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromUriParam(JAXRSUtils.java:1171)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.createHttpParameterValue(JAXRSUtils.java:853)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameter(JAXRSUtils.java:828)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:778)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:212)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:243)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:261)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1088)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1024)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "findAll"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.<init>(Integer.java:867)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:394)
+	... 29 more
+
+2020-06-22 11:39:26,772 208639 [qtp175408781-18] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 7
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Mon, 22 Jun 2020 03:39:26 GMT], Content-Length=[0]}
+--------------------------------------
+2020-06-22 11:39:35,492 217359 [qtp175408781-21] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 8
+Address: http://localhost:8002/dh/userService/user
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8002], Postman-Token=[a29b104b-d00f-4f90-a434-0422a7e72178], User-Agent=[PostmanRuntime/7.25.0]}
+--------------------------------------
+2020-06-22 11:39:35,495 217362 [qtp175408781-21] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 8
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Mon, 22 Jun 2020 03:39:35 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users><User><cars><carName>保时捷</carName><id>101</id><price>1000000.0</price></cars><cars><carName>宝马</carName><id>102</id><price>4000000.0</price></cars><city>北京</city><id>1</id><username>小明</username></User><User><city>广州</city><id>2</id><username>小李</username></User></Users>
+--------------------------------------
+2020-06-22 12:44:59,622 4141489 [qtp175408781-20] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 9
+Address: http://localhost:8002/dh/userService/user/1
+Http-Method: GET
+Content-Type: */*
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], content-type=[*/*], Host=[localhost:8002], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2020-06-22 12:44:59,622 4141489 [qtp175408781-20] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 9
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 22 Jun 2020 04:44:59 GMT]}
+Payload: {"User":{"city":"广州","id":1,"username":"小明"}}
+--------------------------------------
+2020-06-22 12:46:21,713 4223580 [qtp175408781-18] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 10
+Address: http://localhost:8002/dh/userService/user/1
+Http-Method: GET
+Content-Type: */*
+Headers: {Accept=[application/xml], Cache-Control=[no-cache], connection=[keep-alive], content-type=[*/*], Host=[localhost:8002], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2020-06-22 12:46:21,729 4223596 [qtp175408781-18] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 10
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Mon, 22 Jun 2020 04:46:21 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>广州</city><id>1</id><username>小明</username></User>
+--------------------------------------
+2020-06-22 12:46:36,054 4237921 [qtp175408781-18] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 11
+Address: http://localhost:8002/dh/userService/user/1
+Http-Method: GET
+Content-Type: */*
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], content-type=[*/*], Host=[localhost:8002], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2020-06-22 12:46:36,070 4237937 [qtp175408781-18] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 11
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 22 Jun 2020 04:46:36 GMT]}
+Payload: {"User":{"city":"广州","id":1,"username":"小明"}}
+--------------------------------------
