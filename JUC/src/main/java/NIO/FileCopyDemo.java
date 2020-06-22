@@ -22,9 +22,9 @@ public class FileCopyDemo {
 
 
         try {
-            String file="C:/Users/yss/Desktop/01.png";
+            String file="C:/Users/yss/Desktop/timg.jfif";
                  ino = new FileInputStream(file);
-                 out = new FileOutputStream("02.png");
+                 out = new FileOutputStream("timg.png");
             // 获取通道
                 inoChannel = ino.getChannel();
                outChannel = out.getChannel();

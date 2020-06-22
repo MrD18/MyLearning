@@ -1,4 +1,4 @@
-IO: 面向流   阻塞IO                         
+1. IO: 面向流   阻塞IO                         
     单向的: 输入流,输出流, 数据流动是单向的            
                                                       
                                                  
@@ -30,4 +30,8 @@ IO: 面向流   阻塞IO
   - limit：界限，表示缓冲区中的可以操作数据的大小。（limit 后数据不能进行读写）
   - position：位置，表示缓冲区中正在操作的位置
   - mark：标记，表示记录当前 position 的位置，可以通过reset() 恢复到 mark的位置
-  最后它们之间的关系是：0 <= mark <= position <= limit <= capacity                                                
+  最后它们之间的关系是：0 <= mark <= position <= limit <= capacity      
+  2. 直接缓冲区与非直接缓冲区      
+      非直接: 通过allocate()方法分配缓冲区,将缓冲区建立在JVM的内存中,传统IO和非直接缓冲区都需要中间进行一步Copy的过程，是比较耗费时间的  
+      直接缓冲区:allocateDirect()` 方法分配直接缓冲区，将缓冲区建立在操作系统的物理内存中，可以提高效率。 
+  3. 由java.nio.channels包定义的,                                                                                  
