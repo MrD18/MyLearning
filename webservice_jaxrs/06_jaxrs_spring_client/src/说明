@@ -1,0 +1,7 @@
+特别注意路径: server 启动后:
+      tomcat:8080
+      web.xml: /ws/*
+      applicationContext: /userService
+      IUserService: /userService
+      方法路径: /user
+      所以客户端要访问的路径:http://localhost:8080/ws/userService/userService/user
