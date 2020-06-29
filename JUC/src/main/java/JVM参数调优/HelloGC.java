@@ -7,6 +7,10 @@ package JVM参数调优;
 public class HelloGC {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("hello GC");
-        Thread.sleep(Integer.MAX_VALUE);
+
+
+        // new 一个大对象
+      //jsp  byte[] bytes = new byte[1024 * 1024 * 30];
+          Thread.sleep(Integer.MAX_VALUE);
     }
 }
