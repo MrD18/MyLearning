@@ -1,4 +1,4 @@
-package com.yss.other.装饰者模式;
+package com.yss.other.装饰者模式.煎平果子;
 
 /**用这个类装饰父类,选用抽象类
  * @author: duhao

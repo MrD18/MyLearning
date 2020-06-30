@@ -1,4 +1,4 @@
-package com.yss.other.装饰者模式;
+package com.yss.other.装饰者模式.煎平果子;
 
 /** 香肠装饰类
  * @author: duhao

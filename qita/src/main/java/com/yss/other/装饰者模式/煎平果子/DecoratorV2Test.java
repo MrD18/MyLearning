@@ -1,4 +1,4 @@
-package com.yss.other.装饰者模式;
+package com.yss.other.装饰者模式.煎平果子;
 
 /**测试
  * 创建一个实体煎饼果子类并赋值给抽象煎饼果子类，然后将这个父类对象注入装饰类，

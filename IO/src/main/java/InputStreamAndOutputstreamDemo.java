@@ -16,10 +16,10 @@ public class InputStreamAndOutputstreamDemo {
         File dest = new File(destPath);
         //选择流
         InputStream in = null;
-        FileOutputStream out=null;
+        OutputStream out=null;
         try {
-            in = new FileInputStream(src);
-            out  = new FileOutputStream(dest);
+            in = new BufferedInputStream(new FileInputStream(src));
+            out  = new BufferedOutputStream(new FileOutputStream(dest));
             // 操作
             //分段读取
             byte[] datas = new byte[1024];
