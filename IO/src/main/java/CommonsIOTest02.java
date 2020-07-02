@@ -9,6 +9,11 @@ import java.nio.channels.FileLockInterruptionException;
 import java.util.List;
 
 /**读取文件  读取类容
+ * FileUtils.readFileToString(new File("xxx"),"UTF-8")   //读后直接到字符串
+ * FileUtils.readFileToByteArray()  // 读转换成字节数组
+ * FileUtils.readLines()// 逐行读
+ * FileUtils.lineIterator() // 迭代器读,后面要遍历
+ *
  * @author: duhao
  * @date: 2020/7/1 22:48
  */

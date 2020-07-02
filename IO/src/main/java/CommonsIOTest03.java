@@ -4,6 +4,9 @@ import java.io.File;
 import java.io.IOException;
 
 /**写出类容
+ * FileUtils.write(new File("xxx"),"xxxx","UTF-8") // 指定个文件, 内容, 字符集
+ *  FileUtils.writeStringToFile(new File("xxx"),"xxx","UTF-8") //
+ *
  * @author: duhao
  * @date: 2020/7/1 23:00
  */

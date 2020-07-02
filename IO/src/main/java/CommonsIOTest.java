@@ -8,6 +8,15 @@ import java.io.File;
 import java.util.Collection;
 
 /**  文件大小,各种文件格式过滤  .java  .class  不为空
+ *
+ * FileUtils.sizeOf()-- 可以写文件大小/目录大小
+ * FileUtils.listFiles(new File("xxxx"),EmptyFileFilter.NOT_EMPTY,DirectoryFileFilter.INSTANCE)
+ *   --   EmptyFileFilter.NOT_EMPTY, // 内容不为空,有空就过滤掉,当然也可以选空
+ *   --  new SuffixFileFilter("java")  // 过滤后缀是 java的文件
+ *   --  FileFilterUtils.or(new SuffixFileFilter("java"),new SuffixFileFilter("class")), // 过滤后缀是 java的的文件和 后缀是class的文件
+ *   -- FileFilterUtils.and(new SuffixFileFilter("java"),EmptyFileFilter.NOT_EMPTY) // 不为空且为java 文件
+ *  --  DirectoryFileFilter.INSTANCE // 子孙级文件过滤
+ *
  * @author: duhao
  * @date: 2020/7/1 22:11
  */
