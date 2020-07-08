@@ -3,7 +3,14 @@ package OOM;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+/** GC 回收时间过长会抛出此异常:
+ *  为什么时间会长:  定义了 98%的时间进行GC, 还只给回收2%的内存, 这样的极端的情况下  会抛出异常;
+ *  如果不抛会怎么样? 就回收的那么一点2%的空间,就会再次被填满,迫使GC 再次回收, 恶性循环, CPU使用率100% ,还鸡没成果
+ *
+ * -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:MaxDirectMemorySize=5m
+ *  -Xms10m -Xmx10m :  堆初始大小   最大内存大小
+ * 使用 -XX:MaxDirectMemorySize=5m 配置能使用的堆外物理内存为5M   设置堆外内存
+ *
  * @author: duhao
  * @date: 2020/6/30 15:37
  */

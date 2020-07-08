@@ -1,4 +1,4 @@
-package com.yss.other.装饰者模式;
+package com.yss.other.装饰者模式.煎平果子;
 
 /**定义一个抽象的煎饼果子
  * @author: duhao

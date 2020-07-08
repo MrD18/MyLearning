@@ -12,16 +12,16 @@ import java.io.OutputStream;
  * @date: 2020/6/26 10:32
  */
 public class Test02_OutputStream {
-    @lombok.SneakyThrows
-    public static void main(String[] args) {
-        File dest = new File("dest.txt");
-        OutputStream os = new FileOutputStream(dest ); // new FileOutputStream(dest,true )  还可以追加,将括号内改为true
-        // 操作
-         String msg="OI is so easy";
-        byte[] datas = msg.getBytes();
-        os.write(datas,0,datas.length);
-        os.flush();
-        os.close();
+//    @lombok.SneakyThrows
+//    public static void main(String[] args) {
+//        File dest = new File("dest.txt");
+//        OutputStream os = new FileOutputStream(dest ); // new FileOutputStream(dest,true )  还可以追加,将括号内改为true
+//        // 操作
+//         String msg="OI is so easy";
+//        byte[] datas = msg.getBytes();
+//        os.write(datas,0,datas.length);
+//        os.flush();
+//        os.close();
 
-    }
+   // }
 }

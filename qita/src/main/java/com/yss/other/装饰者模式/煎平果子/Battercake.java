@@ -1,4 +1,4 @@
-package com.yss.other.装饰者模式;
+package com.yss.other.装饰者模式.煎平果子;
 
 /** 实体煎饼果子类,实体煎饼果子继承抽象煎饼果子
  * @author: duhao
