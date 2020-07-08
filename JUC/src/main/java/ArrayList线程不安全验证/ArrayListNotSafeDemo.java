@@ -15,20 +15,22 @@ import java.util.concurrent.CopyOnWriteArraySet;
  *   1. 使用 Vector  底部使用  public synchronized boolean add(E e) {}
  *   2. 使用Collections 工具类 调用加锁的方法 Collections.synchronizedList
  *   3. 使用juc 并发包CopyOnWriteArrayList<>()
+ *     采用读写分离的思想: 写时复制,往一个容器中添加时,是将原来的容器复制出一个新的容器,往新的容器里面添加
+ *     再将原容器的引用指向新的容器,这样做的好处可以对copyOnWrite容器进行并发度,不需要加锁
  */
 public class ArrayListNotSafeDemo {
     public static void main(String[] args) {
         // 单线程下
-//       List<String> list = new ArrayList<>();
+     //  List<String> list = new ArrayList<>();
 //            list.add("a");
 //            list.add("b");
 //            list.add("c");
 //             list.forEach(System.out::print);
 
         // 多线程下 测试
-        // 报错： java.util.ConcurrentModificationException  并发修改异常
-//        List<String> list = new Vector<>();
-//        List<Object> list = Collections.synchronizedList(new ArrayList<>());
+        // 报错： java.util.ConcurrentModificationException  会出现并发修改异常
+   //   List<String> list = new Vector<>(); // 采用Vector()
+//      List<Object> list = Collections.synchronizedList(new ArrayList<>());
 //        CopyOnWriteArrayList<Object> list = new CopyOnWriteArrayList<>();
 //        for(int i=1;i<=30;i++){
 //                 new Thread(()->{
