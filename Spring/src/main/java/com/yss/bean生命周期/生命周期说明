@@ -1,0 +1,51 @@
+
+ IOC(控制翻转)
+ Spring 中的一个核心组件
+ 1. BeanFactory: spring容器的顶层接口
+    ApplicationContext 它的子接口
+    区别:  创建对象的时间不一样
+      BeanFactory: 什么时候使用什么时候创建
+      ApplicationContext: 只要一读取配置文件,默认就创建对象
+ 2. 关于对AppliactionContext接口的实现类使用
+      ClassPathXmlApplicationContext : 从类路径下读取配置xml文件-- 我们用的是这个
+      FileSystemXmlApplicactionContext： 绝对路径下读取配置xml文件（一般不用）
+      AnnotationConfigApplicationContext：纯注解模式使用
+ 3. 生命周期涉及到的一些接口:
+   Bean自身方法: 包括bean本身调用的方法和配置文件中的<bean> 的init-method和destroy-menthod指定的方法
+   Bean 级生命周期接口方法: BeanNameAware,BeanFactorAware,InitializingBean,DisposableBean这些接口方法
+   容器级生命周期接口方法 InstantiationAwareBeanPostProcessor 和 BeanPostProcessor 这两个接口实现，一般称它们的实现类为“后处理器”。
+   工厂后处理器接口方法:AspectJWeavingEnabler, ConfigurationClassPostProcessor, CustomAutowireConfigurer等等非常有用的工厂后处理器　　
+                   接口的方法。工厂后处理器也是容器级的。在应用上下文装配配置文件之后立即调用。
+
+
+   说明: 一个简单Spring Bean, 调用Bean自身的方法和Bean级生命周期接口方法
+        我们让它实现了,
+        BeanNameAware、BeanFactoryAware、InitializingBean和DiposableBean这4个接口，
+        同时有2个方法，对应配置文件中<bean>的init-method和destroy-method
+
+ 经过4个阶段:
+   实例化  Instantiation
+   属性赋值 Populate
+   初始化 Initialization
+   销毁 Destruction
+
+
+
+
+ 4. 过程:
+ - Spring启动，查找并加载需要被Spring管理的bean，进行Bean的实例化
+ - Bean实例化后对将Bean的引入和值注入到Bean的属性中
+ - 如果Bean实现了BeanNameAware接口的话，Spring将Bean的Id传递给setBeanName()方法
+ - 如果Bean实现了BeanFactoryAware接口的话，Spring将调用setBeanFactory(BeanFactory bf)方法，并把BeanFactory 容器实例作为参数传入
+          (实现BeanFactoryAware 主要目的是为了获取Spring 容器, 如Bean通过Spring 容器发布事件等)
+ - 如果Bean实现了ApplicationContextAware接口的话，Spring将调用Bean的setApplicationContext()方法，将bean所在应用上下文引用传入进来。
+ - 如果Bean实现了BeanPostProcessor接口，Spring就将调用他们的postProcessBeforeInitialization()方法。
+
+ - 如果Bean 实现了InitializingBean接口，Spring将调用他们的afterPropertiesSet()方法。类似的，如果bean使用init-method声明了初始化方法，该方法也会被调用
+ - 如果Bean 实现了BeanPostProcessor接口，Spring就将调用他们的postProcessAfterInitialization()方法。
+ - 此时，Bean已经准备就绪，可以被应用程序使用了。他们将一直驻留在应用上下文中，直到应用上下文被销毁。
+ - 如果bean实现了DisposableBean接口，Spring将调用它的destory()接口方法，同样，如果bean使用了destory-method 声明销毁方法，该方法也会被调用
+
+ 5. 简化下过程:
+ 实例化，  填充属性，  name，           factory，           applicationContext，        before-init，       init，           after-init，          调用，          destory
+  new     注入      BeanNameAware    BeanFactoryAware    ApplicationContextAware    BeanPostProcessor  InitializingBean  BeanPostProcessor                   DisposableBean
