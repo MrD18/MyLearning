@@ -19,6 +19,13 @@
     </properties>
 
     <dependencies>
+<!-- java 代码操作redis-->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+
          <!--引入布隆过滤-->
         <dependency>
             <groupId>com.google.guava</groupId>
