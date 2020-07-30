@@ -1,7 +1,6 @@
 package com.yss.other.读写并发异常;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /**list的这种读取后删除的情况:
@@ -36,15 +35,14 @@ public class ListDemo {
      list.removeIf("1"::equals);
      list.forEach(System.out::println);
 
-
-        Iterator<Object> iterator = list.iterator();
-        // 方法 removeIf 的底层就是这个方法, 没必要自己写
-           while (iterator.hasNext()){
-              if ("1".equals(iterator.next())){
-                  iterator.remove();
-              }
-           }
-        list.forEach(System.out::println);
+//        Iterator<Object> iterator = list.iterator();
+//        // 方法 removeIf 的底层就是这个方法, 没必要自己写
+//           while (iterator.hasNext()){
+//              if ("1".equals(iterator.next())){
+//                  iterator.remove();
+//              }
+//           }
+//        list.forEach(System.out::println);
 
         //解决方法: 单线程使用CopyOnArrayList
 //        CopyOnWriteArrayList<Object> clist = new CopyOnWriteArrayList<>();
