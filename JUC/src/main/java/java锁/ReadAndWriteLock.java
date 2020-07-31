@@ -56,7 +56,7 @@ class MyCache{
        // 定义写操作
     public void put(String key,Object value){
      //   lock.lock();
-//         rwLock.writeLock().lock();
+   rwLock.writeLock().lock();
         try {
             System.out.println(Thread.currentThread().getName()+"\t 正在写入:"+key);
             // 模拟说0.3s
@@ -67,13 +67,13 @@ class MyCache{
             e.printStackTrace();
         } finally {
          //   lock.unlock();
-       //    rwLock.writeLock().unlock();
+        rwLock.writeLock().unlock();
         }
     }
      //  定义读的操作
     public  Object get(String key){
       //  lock.lock();
-       // rwLock.readLock().lock();
+      rwLock.readLock().lock();
 
             System.out.println(Thread.currentThread().getName()+"\t 正在读取");
             try{Thread.sleep(500);}catch(InterruptedException e){e.printStackTrace();}
@@ -82,7 +82,7 @@ class MyCache{
 
 
      //        lock.unlock();
-//          rwLock.readLock().unlock();
+     rwLock.readLock().unlock();
         return value;
     }
 

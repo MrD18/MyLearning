@@ -22,8 +22,9 @@ public class CountDownLatchDemo {
                    System.out.println(Thread.currentThread().getName()+"\t 被灭    ");
                    countDownLatch.countDown();
                },String.valueOf(CountryEnum.forEach_Enum(i))).start();
-               // await 会导致线程阻塞,直到countDown()方法，当前计数达到零，此后所有等待线程被释放
-        }      countDownLatch.await();
+        }
+        // await 会导致线程阻塞,直到countDown()方法，当前计数达到零，此后所有等待线程被释放
+        countDownLatch.await();
         System.out.println(Thread.currentThread().getName()+"\t 秦国统一");
 
     }

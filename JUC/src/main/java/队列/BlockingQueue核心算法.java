@@ -4,7 +4,16 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 
-/**
+/** 1.队列: 可以想象成一个数组, 从一头进入,一头出去,排队买饭
+ *  2.阻塞队列: BlockingQueue,  排队拥堵
+ *  3.为什么用?
+ *     多线程情况下,所谓阻塞, 就是某些清空下会挂起线程(阻塞),条件满足,被挂起的线程又重新唤醒
+ *      程序员不用关心什么时候需要阻塞线程,什么时候唤醒线程, 都有阻塞队列报班了
+ *  4. BlockingQueue 属于一个接口,底下有7个实现类
+ *       ArrayBlockQueue    数组结构组成的有界阻塞队列
+ *       LinkedBlockingQueue  由链表结构组成的有界（但是默认大小 Integer.MAX_VALUE）的阻塞队列
+ *       SynchronousQueue  不存储元素的阻塞队列，也即单个元素的队列
+ *
  * @author: duhao
  * @date: 2020/6/17 10:00
  */

@@ -1,10 +1,8 @@
 package ArrayList线程不安全验证;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
-import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.concurrent.CopyOnWriteArraySet;
 
 /**
@@ -42,8 +40,8 @@ public class ArrayListNotSafeDemo {
          // 看一下Hashset,底层就是HashMap， 肯定不安全， 至于为什么只有key 而不存value, 因为value
          // 存储的是一个object类型的常量值，
          // 解决方法：
-         //   1.    Collections.synchronizedSet(new HashSet<>());
-        //   2.new CopyOnWriteArraySet<>() ，底层 al = new CopyOnWriteArrayList<E>();
+         // 1.Collections.synchronizedSet(new HashSet<>());
+        //  2.new CopyOnWriteArraySet<>() ，底层 al = new CopyOnWriteArrayList<E>();
         Set<Object> hashSet = new HashSet<>();
         Set<Object> set1 = Collections.synchronizedSet(new HashSet<>());
         CopyOnWriteArraySet<Object> set = new CopyOnWriteArraySet<>();
@@ -56,13 +54,13 @@ public class ArrayListNotSafeDemo {
          */
 
      //   Map<Object, Object> map= Collections.synchronizedMap(new HashMap<>());
-        ConcurrentHashMap<Object, Object> map = new ConcurrentHashMap<>();
-        for(int i=1;i<=20;i++){
-                     new Thread(()->{
-                        map.put(Thread.currentThread().getName(),UUID.randomUUID().toString().substring(0,8));
-                         System.out.println(map);
-                        },"Thread:"+i).start();
-              }
+//        ConcurrentHashMap<Object, Object> map = new ConcurrentHashMap<>();
+//        for(int i=1;i<=20;i++){
+//                     new Thread(()->{
+//                        map.put(Thread.currentThread().getName(),UUID.randomUUID().toString().substring(0,8));
+//                         System.out.println(map);
+//                        },"Thread:"+i).start();
+//              }
 
     }
 
