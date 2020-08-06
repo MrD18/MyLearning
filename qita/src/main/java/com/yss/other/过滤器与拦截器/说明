@@ -1,0 +1,45 @@
+/**过滤器实现方式
+ * 自定义过滤器必须实现 javax.Servlet.Filter接口，并重写接口中定义的三个方法：
+ * 1.void init（FilterConfig config）
+ *  用于完成Filter的初始化
+ *
+ * 2.void destory（）
+ *  用于Filter销毁前，完成某些资源的回收
+ *
+ * 3.void doFilter(ServletRequest request,ServletResponse response,FilterChain chain)
+ * 实现过滤功能，即对每个请求及响应增加的额外的预处理和后处理。,执行该方法之前，即对用户请求进行预处理；
+ * 执行该方法之后，即对服务器响应进行后处理。值得注意的是，chain.doFilter()方法执行之前为预处理阶段，
+ * 该方法执行结束即代表用户的请求已经得到控制器处理。因此，如果再doFilter中忘记调用chain.doFilter()方法，
+ * 则用户的请求将得不到处理
+ */
+
+
+ 拦截器:
+  实现HandlerInterceptor 接口
+  重写里面的方法:  preHandle, 在controller 调用之前执行
+                 postHandle,在controller 调用之后调用,有异常不调用
+                  afterCompletion,在调用controller 之后调用,有没有异常都会被调用,Exception 参数里放着异常信息
+
+ 在一个就是配置类的设定:
+     实现WebMvcConfigurer 接口
+     将拦截器对象注入
+     在重写的方法中添加拦截器,设定拦截那些资源,放行那些资源
+
+
+
+
+     这个接口中有很多方法:
+      解决跨域问题
+      public void addCorsMappings(CorsRegistry registry);
+      添加拦截器
+      void addInterceptors(InterceptorRegistry registry);
+      这里配置视图解析器
+      void configureViewResolvers(ViewResolverRegistry registry);
+      配置内容裁决的一些选项
+      void configureContentNegotiation(ContentNegotiationConfigurer configurer);
+      视图跳转控制器
+      void addViewControllers(ViewControllerRegistry registry);
+      静态资源处理
+      void addResourceHandlers(ResourceHandlerRegistry registry);
+      默认静态资源处理器
+      void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer);
