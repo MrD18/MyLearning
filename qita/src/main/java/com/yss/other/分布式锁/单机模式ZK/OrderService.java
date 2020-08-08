@@ -1,4 +1,4 @@
-package com.yss.other.分布式锁.单机模式;
+package com.yss.other.分布式锁.单机模式ZK;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

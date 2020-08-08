@@ -1,4 +1,4 @@
-package com.yss.other.分布式锁.分布式;
+package com.yss.other.分布式锁.分布式ZK;
 
 /** 客户端
  * @author: duhao
@@ -6,7 +6,7 @@ package com.yss.other.分布式锁.分布式;
  */
 public class Client {
     public static void main(String[] args) {
-        for (int i = 1; i <= 50; i++) {
+        for (int i = 1; i <= 20; i++) {
             new Thread(() -> {
                new OrderService().getOrderNumber();
 

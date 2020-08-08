@@ -1,6 +1,8 @@
-package com.yss.other.分布式锁.单机模式;
+package com.yss.other.分布式锁.分布式ZK;
 
-/**订单生成工具类
+/**
+ * 订单生成工具类
+ *
  * @author: duhao
  * @date: 2020/7/29 13:35
  */

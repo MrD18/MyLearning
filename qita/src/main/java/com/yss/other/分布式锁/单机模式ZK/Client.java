@@ -1,4 +1,4 @@
-package com.yss.other.分布式锁.单机模式;
+package com.yss.other.分布式锁.单机模式ZK;
 
 /**客户端: 创建50个线程去访问获取订单号的时候
  * @author: duhao
