@@ -16,7 +16,7 @@ public class MyBeanPostProcessor implements BeanPostProcessor {
 
     @Override
     public Object postProcessBeforeInitialization(Object arg0, String beanName) throws BeansException {
-        System.out.println("BeanPostProcessor接口方法postProcessAfterInitialization对属性进行更改！");
+        System.out.println("BeanPostProcessor接口方法postProcessBeforeInitialization对属性进行更改！");
         return arg0;
     }
 

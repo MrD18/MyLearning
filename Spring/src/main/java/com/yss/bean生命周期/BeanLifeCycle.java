@@ -12,6 +12,7 @@ public class BeanLifeCycle {
         ClassPathXmlApplicationContext factory = new ClassPathXmlApplicationContext("beans.xml");
          //利用工厂得到bean
         Person person = factory.getBean("person", Person.class);
+        //以上经过这整个过程的加工 bean已经装在完成,
         System.out.println(person);
 
         System.out.println("现在开始关闭容器！");

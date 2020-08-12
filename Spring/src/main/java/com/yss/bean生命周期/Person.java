@@ -37,7 +37,9 @@ public class Person implements BeanFactoryAware, BeanNameAware, InitializingBean
     private  String beanName;
 
     public Person() {
-        System.out.println("[构造器]调用Person 的构造器实例化");
+        System.out.println("↑↑↑↑↑对象被实例化之前,可以调用BeanPostProcessor做[{前置}]处理");
+        System.out.println(" 对象的空参构造----[构造器]调用Person 的构造器实例化");
+        System.out.println("↓↓↓↓↓对象被实例化之前,可以调用BeanPostProcessor做[{后置}]处理");
     }
 
     public String getName() {
@@ -84,29 +86,30 @@ public class Person implements BeanFactoryAware, BeanNameAware, InitializingBean
     // 这是BeanFactoryAware接口方法
     @Override
     public void setBeanFactory(BeanFactory arg0) throws BeansException {
-        System.out.println("[BeanFactoryAware接口] 调用BeanFactoryAware.setBeanFactory()");
+        System.out.println("【如果实现了BeanFactoryAware接口】那么就调用BeanFactoryAware.setBeanFactory()对BeanFactory设置");
         this.beanFactory=arg0;
     }
  //这是 DipsibleBean接口方法
     @Override
     public void destroy() throws Exception {
-        System.out.println("【DiposibleBean接口】调用DiposibleBean.destory()");
+        System.out.println("【如果实现了DiposibleBean接口】那么在销毁的时候调用DiposibleBean.destory()方法");
 
     }
     // 这是InitializingBean接口方法
     @Override
     public void afterPropertiesSet() throws Exception {
-        System.out.println("【InitializingBean接口】调用InitializingBean.afterPropertiesSet()");
+        System.out.println("【如果实现了InitializingBean接口】那么就调用InitializingBean.afterPropertiesSet() ---初始化bean的时候执行，可以针对某个具体的bean进行配置" );
+
     }
     // 这是BeanNameAware接口方法
     @Override
     public void setBeanName(String arg0) {
-        System.out.println("【BeanNameAware接口】调用BeanNameAware.setBeanName()");
+        System.out.println("【如果实现了BeanNameAware接口】那么就调用BeanNameAware.setBeanName(),对bean进行设置");
             this.beanName = arg0;
     }
     // 通过<bean>的init-method属性指定的初始化方法
     public void myInit() {
-            System.out.println("【init-method】调用<bean>的init-method属性指定的初始化方法");
+            System.out.println("【init-method】调用的是XML中<bean>的init-method属性指定的初始化方法");
          }
 
         // 通过<bean>的destroy-method属性指定的初始化方法
