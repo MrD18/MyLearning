@@ -5,6 +5,7 @@ import org.springframework.beans.PropertyValues;
 import org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor;
 
 import java.beans.PropertyDescriptor;
+import java.net.URL;
 
 /**
  * @author: duhao
@@ -23,7 +24,9 @@ public class MyInstantiationAwareBeanPostProcessor implements InstantiationAware
     public Object postProcessBeforeInstantiation(Class beanClass,
                                                  String beanName) throws BeansException {
         System.out
-                .println("InstantiationAwareBeanPostProcessor调用postProcessBeforeInstantiation方法");
+                .println("InstantiationAwareBeanPostProcessor调用postProcessBeforeInstantiation方法,实例化之前可以做一些动作 ");
+        URL url = beanClass.getClassLoader().getResource("");
+        System.out.println("比如获得这个bean的路径: "+url);
         return null;
     }
 
@@ -33,6 +36,8 @@ public class MyInstantiationAwareBeanPostProcessor implements InstantiationAware
             throws BeansException {
         System.out
                 .println("InstantiationAwareBeanPostProcessor调用postProcessAfterInitialization方法");
+        boolean empty = beanName.isEmpty();
+        System.out.println("比如实例化之后做一些动作,判断是否为空: "+empty);
         return bean;
     }
 
