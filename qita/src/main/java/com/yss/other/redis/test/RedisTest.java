@@ -1,4 +1,4 @@
-package com.yss.other.redis;
+package com.yss.other.redis.test;
 
 import org.springframework.scheduling.annotation.Async;
 

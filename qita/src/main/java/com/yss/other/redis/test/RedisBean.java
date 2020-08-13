@@ -1,4 +1,4 @@
-package com.yss.other.redis;
+package com.yss.other.redis.test;
 
 /**
  * @author: duhao
