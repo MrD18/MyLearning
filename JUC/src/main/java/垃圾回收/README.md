@@ -247,6 +247,7 @@ ParNew收集器其实就是Serial收集器新生代的并行多线程版本，�
 
 ```
 -Xms10m -Xmx10m -XX:PrintGCDetails -XX:+PrintConmandLineFlags -XX:+UseParNewGC
+
 ```
 
 但是会出现警告，即 ParNew 和 Serial Old 这样搭配，Java8已经不再被推荐
