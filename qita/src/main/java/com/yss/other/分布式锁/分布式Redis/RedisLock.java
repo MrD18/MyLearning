@@ -51,7 +51,7 @@ public class RedisLock {
         Config config = new Config();
         config.useSingleServer().setAddress("192.168.232.111:6379");
         final RedissonClient client = Redisson.create(config);
-        final RLock lock = client.getLock("lock");
+        final RLock lock = client.getLock("a");
 
         for (int i = 0; i <= NUM; i++) {
             threadPoolExecutor.execute(() -> {

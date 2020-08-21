@@ -15,7 +15,8 @@ spring:
     database: 0 # Redis 数据库号，默认为 0 。
     timeout: 0 # Redis 连接超时时间，单位：毫秒。
     # 对应 RedisProperties.Jedis 内部类
-    jedis:
+   # jedis:  #是Redis的java实现客户端,提供基本类型支持,提供比较全的Redis命令
+    lettuce: # 基于Netty框架的事件驱动的高级Redis客户端,用于线程安全同步, 异步和响应使用,支持集群,Sentinel等.目前默认使用这个
       pool:
         max-active: 8 # 连接池最大连接数，默认为 8 。使用负数表示没有限制。
         max-idle: 8 # 默认连接数最小空闲的连接数，默认为 8 。使用负数表示没有限制。
