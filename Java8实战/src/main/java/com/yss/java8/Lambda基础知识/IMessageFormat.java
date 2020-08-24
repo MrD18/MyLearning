@@ -1,4 +1,4 @@
-package com.yss.java8.函数式处理数据2;
+package com.yss.java8.Lambda基础知识;
 
 /**
  * @author: duhao
