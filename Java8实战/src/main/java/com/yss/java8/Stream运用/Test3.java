@@ -90,20 +90,75 @@ public class Test3 {
         // 3. Stream对象 --> 转换得到指定的数据类型
         // 数组
         /*String[] objx = stream.toArray(String[]::new);*/
-        // 字符串
+        // 3.1字符串-->字符串的一些拼接
       /*  String str = stream.collect(Collectors.joining(",","[","]"));// 这个TM太方便了[admin,tom,damu]
         System.out.println(str);*/
        /* String str2 = stream.collect(Collectors.joining("|", "", "")); //admin|tom|damu
         System.out.println(str2);*/
-        // 列表 -->数组转list[admin, tom, damu]
+        // 3.2 列表 -->数组转list[admin, tom, damu]
       /*  List<String> stringList = stream.collect(Collectors.toList());
         System.out.println(stringList); */
-        // 集合-->数组转Set [tom, admin, damu]
+        // 3.3 集合-->数组转Set [tom, admin, damu]
       /*  Set<String> stringSet = stream.collect(Collectors.toSet());
         System.out.println(stringSet);*/
-        // Map-->数组转Map {tom=valuetom, admin=valueadmin, damu=valuedamu}
-        Map<String, String> mapx = (Map<String, String>) stream.collect(Collectors.toMap(x -> x, y -> "value" + y));
-        System.out.println(mapx);
+        // 3.4 Map-->数组转Map {tom=valuetom, admin=valueadmin, damu=valuedamu}
+       /* Map<String, String> mapx = (Map<String, String>) stream.collect(Collectors.toMap(x -> x, y -> "value" + y));
+        System.out.println(mapx);*/
+
+        // 4. Stream中常见的API操作
+        List<String> accountList = new ArrayList<>();
+        accountList.add("xongjiang");
+        accountList.add("lujunyi");
+        accountList.add("wuyong");
+        accountList.add("linchong");
+        accountList.add("luzhishen");
+        accountList.add("likui");
+        accountList.add("wusong");
+
+        // 4.1 map() 中间操作，map()方法接收一个Functional接口
+        //[梁山好汉:xongjiang, 梁山好汉:lujunyi, 梁山好汉:wuyong, 梁山好汉:linchong, 梁山好汉:luzhishen, 梁山好汉:likui, 梁山好汉:wusong]
+        List<String> list1 = accountList.stream().map(x -> "梁山好汉:" + x).collect(Collectors.toList());
+        System.out.println(list1);
+        // 4.2 filter() 添加过滤条件，过滤符合条件的用户
+        // [xongjiang, lujunyi, wuyong, linchong, luzhishen, wusong]
+        List<String> list2 = accountList.stream().filter(x -> x.length() > 5).collect(Collectors.toList());
+        System.out.println(list2);
+        // 4.3 forEach 增强型循环
+        accountList.forEach(x -> System.out.println("forEach->" + x));
+        accountList.forEach(System.out::println);
+        System.out.println();
+        System.out.println();
+        // 4.4 peek() 中间操作，迭代数据完成数据的依次处理过程
+        accountList.stream().peek(x -> System.out.println("peek1:" + x)).peek(x -> System.out.println("peek2:" + x)).forEach(System.out::println);
+
+        System.out.println("----------------------------");
+        // 5. Stream中对于数字运算的支持
+        List<Integer> intList = new ArrayList<>();
+        intList.add(20);
+        intList.add(19);
+        intList.add(7);
+        intList.add(8);
+        intList.add(86);
+        intList.add(11);
+        intList.add(3);
+        intList.add(20);
+        // 5.1 skip() 中间操作，有状态，跳过前3个数据
+        //intList.stream().skip(3).forEach(System.out::println);
+        // 5.2 limit() 中间操作，有状态，限制输出数据量: 跳过前3个数据,并只显示前个数据
+        //  intList.stream().skip(3).limit(2).forEach(System.out::println);
+        //5.3  distinct() 中间操作，有状态，剔除重复的数据: 去重
+       // intList.stream().distinct().forEach(System.out::println);
+        // 5.4 sorted() 中间操作，有状态，排序
+//        Optional<Integer> max = intList.stream().max(Comparator.comparingInt(x -> x));
+//        System.out.println(max.get());
+        // 5.5 min() 获取最小值
+        Optional<Integer> min = intList.stream().min((x, y) -> x - y);
+        System.out.println(min.get());
+        // 5.6 reduce() 合并处理数据
+        Optional<Integer> reduce = intList.stream().reduce((sum, x) -> sum + x);
+        System.out.println(reduce.get());
+
+
     }
 
 }
