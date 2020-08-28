@@ -41,3 +41,5 @@
    2）当Bean没有实现接口时，Spring使用CGlib是实现。
    3）可以强制使用CGlib（在spring配置中加入<aop:aspectj-autoproxy proxy-target-class="true"/>）。
 
+底层
+https://www.cnblogs.com/hetutu-5238/p/11988946.html

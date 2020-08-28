@@ -18,12 +18,26 @@
         <java.version>1.8</java.version>
     </properties>
 
+
     <dependencies>
+<!-- 实现redis分布式锁-->
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>3.2.3</version>
+        </dependency>
+
+
 <!-- java 代码操作redis-->
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
             <version>2.9.0</version>
+        </dependency>
+        <!-- Spring Boot Cache 操作-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
         </dependency>
 
          <!--引入布隆过滤-->
@@ -99,6 +113,54 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.25</version>
         </dependency>
+
+        <!-- SpringBoot整合zookeeper客户端 -->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>-->
+<!--            &lt;!&ndash;先排除自带的zookeeper&ndash;&gt;-->
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>org.apache.zookeeper</groupId>-->
+<!--                    <artifactId>zookeeper</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
+<!--        </dependency>-->
+        <!--添加zookeeper3.4.9版本-->
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.4.9</version>
+        </dependency>
+
+        <dependency>
+        <groupId>com.github.sgroschupf</groupId>
+        <artifactId>zkclient</artifactId>
+        <version>0.1</version>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>mysql</groupId>-->
+<!--            <artifactId>mysql-connector-java</artifactId>-->
+<!--            <version>${mysql.version}</version>-->
+<!--        </dependency>-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.16</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
 
     </dependencies>
 

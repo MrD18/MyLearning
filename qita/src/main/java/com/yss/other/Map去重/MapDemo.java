@@ -1,5 +1,8 @@
 package com.yss.other.Map去重;
 
+
+import org.junit.Test;
+
 import java.util.*;
 
 /**
@@ -11,7 +14,7 @@ import java.util.*;
  */
 public class MapDemo {
     public static void main(String[] args) {
-      //  ArrayListDemo();
+        //  ArrayListDemo();
 
         //1. map中有相同的value
         Map<String, String> map = new HashMap<>();
@@ -21,20 +24,20 @@ public class MapDemo {
         map.put("4", "123");
         map.put("5", "djw");
 
-      // 1. 利用set去重
-         Set<String> set = new HashSet<>();
-        for ( Iterator<Map.Entry<String, String>> iterator = map.entrySet().iterator(); iterator.hasNext();){
-             Map.Entry<String, String> entry = iterator.next();
-             if (set.contains(entry.getValue())){
-                 iterator.remove();
-                 continue;
-             }else {
-                 set.add(entry.getValue());
-             }
-         }
-       map.forEach((key,value)->{
-           System.out.println("key:"+key+", value:"+value);
-       });
+        // 1. 利用set去重
+        Set<String> set = new HashSet<>();
+        for (Iterator<Map.Entry<String, String>> iterator = map.entrySet().iterator(); iterator.hasNext(); ) {
+            Map.Entry<String, String> entry = iterator.next();
+            if (set.contains(entry.getValue())) {
+                iterator.remove();
+                continue;
+            } else {
+                set.add(entry.getValue());
+            }
+        }
+        map.forEach((key, value) -> {
+            System.out.println("key:" + key + ", value:" + value);
+        });
         // deleteDuplicate1(map);
 
     }
@@ -43,17 +46,17 @@ public class MapDemo {
         // 方法1 通过containsValue 去重后定义新map
         Map<String, String> map2 = new HashMap<>();
         for (Map.Entry<String, String> entry : map.entrySet()) {
-           // String key = entry.getKey();
-           // String value = entry.getValue();
-            if (map2.containsValue(entry.getValue())){
+            // String key = entry.getKey();
+            // String value = entry.getValue();
+            if (map2.containsValue(entry.getValue())) {
                 continue;
-            }else {
-                map2.put(entry.getKey(),entry.getValue());
+            } else {
+                map2.put(entry.getKey(), entry.getValue());
             }
 
         }
-        map2.forEach((key,value)->{
-            System.out.println("key:"+key+", value:"+value);
+        map2.forEach((key, value) -> {
+            System.out.println("key:" + key + ", value:" + value);
         });
     }
 
@@ -65,7 +68,7 @@ public class MapDemo {
         list.add("孙悟空");
         list.add("铁扇公主");
         list.forEach(System.out::println);
-//  2.利用map的key不重复的特性,对list去重
+        // 2.利用map的key不重复的特性,对list去重
         Map<String, String> map = new HashMap<>();
         for (String s : list) {
             map.put(s, "");
@@ -78,4 +81,22 @@ public class MapDemo {
         }
         list.forEach(System.out::println);
     }
+    @Test
+    public void testEmpty(){
+        Map<String, Object> map = new HashMap<>();
+        if (map.isEmpty()){
+            System.out.println("no element in this map.");
+        }
+
+    }
+
+//    @Test
+//    public void testToMap(){
+//        java.lang.String[] departments = new String[]{"iERP", "iERP", "EIBU"};
+//        Map<Integer, String> map = Arrays.stream(departments).collect(Collectors.toMap(String::hashCode,str->str));
+//        System.out.println(map);
+//
+//
+//    }
+
 }

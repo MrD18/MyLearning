@@ -1,5 +1,7 @@
 package com.yss.other.BigDecimal;
 
+import org.junit.Test;
+
 import java.math.BigDecimal;
 import java.text.NumberFormat;
 
@@ -57,7 +59,21 @@ public class TestBigDecimal {
  * 看来涉及小数的计算，还是需要留意的。
  * 其实笔者总结：取Double的值，转化一下。计算的时候就按照常规的方法来计算，只是取值的时候转一下。
  */
+    }
+
+    @Test
+    public void testBigDecimal(){
+        BigDecimal a = new BigDecimal("1.0");
+        BigDecimal b = new BigDecimal("0.9");
+        BigDecimal c = new BigDecimal("0.8");
+        BigDecimal x = a.subtract(b);
+        BigDecimal y = b.subtract(c);
+        if (x.equals(y)){
+            System.out.println("true");
+        }
+
 
 
     }
+
 }
