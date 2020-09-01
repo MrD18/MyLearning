@@ -1,0 +1,1 @@
+http://www.macrozheng.com/#/technology/minio_use
