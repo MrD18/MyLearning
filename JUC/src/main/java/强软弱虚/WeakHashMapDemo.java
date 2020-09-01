@@ -50,4 +50,9 @@ public class WeakHashMapDemo {
 /**
  * 从这里我们看到，对于普通的HashMap来说，key置空并不会影响，HashMap的键值对，因为这个属于强引用，不会被垃圾回收。
  * 但是WeakHashMap，在进行GC操作后，弱引用的就会被回收
+ *
+ * {1=HashMap}
+ * {1=HashMap}
+ * {1=WeakHashMap}
+ * {}
  */

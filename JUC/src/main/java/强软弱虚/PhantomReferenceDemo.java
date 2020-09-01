@@ -7,7 +7,6 @@ package 强软弱虚;
 
 import java.lang.ref.PhantomReference;
 import java.lang.ref.ReferenceQueue;
-import java.lang.ref.WeakReference;
 
 /**
  * 又叫幽灵引用,`java.lang.ref.PhantomReference` 类来实现
@@ -26,15 +25,16 @@ public class PhantomReferenceDemo {
         //创建引用队列
         ReferenceQueue<Object> referenceQueue = new ReferenceQueue<>();
         //创建一个弱引用
-         WeakReference<Object> weakReference = new WeakReference<>(o1, referenceQueue);
+        // WeakReference<Object> weakReference = new WeakReference<>(o1, referenceQueue);
         //创建虚引用
-      //  PhantomReference<Object> weakReference = new PhantomReference<>(o1, referenceQueue);
+        PhantomReference<Object> weakReference = new PhantomReference<>(o1, referenceQueue);
         System.out.println(o1);
         System.out.println(weakReference.get());
         o1=null;
         System.gc();
         System.out.println("执行GC操作");
-         try{Thread.sleep(1000*2);}catch(InterruptedException e){e.printStackTrace();}
+         try{Thread.sleep(Integer.MAX_VALUE
+         );}catch(InterruptedException e){e.printStackTrace();}
         System.out.println(o1);
         System.out.println(weakReference.get());
         //取队列中的内容
