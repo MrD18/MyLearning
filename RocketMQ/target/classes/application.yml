@@ -1,0 +1,13 @@
+server:
+  port: 11000
+
+    #消费者的配置
+#    consumer:
+#      pushConsumer: myConsumer
+
+
+rocketmq:
+  #生产者的配置
+  producer:
+    group: myGroup
+  name-server: 127.0.0.1:9876

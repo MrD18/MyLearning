@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yss.mapper.UserMapper">
+
+
+    <sql id="base_column">
+         id,username,age
+    </sql>
+    <!--动态sql if的使用, 查询年龄>18的
+           目的使传入的参数不为null 进行判断
+            1=1  拼接sql 或者用where标签代替 -->
+    <!--&lt; 小于号     &gt; 大于号-->
+    <select id="findAge"  parameterType="com.yss.domain.User" resultType="com.yss.domain.User">
+       select <include refid="base_column"/>
+        from t_user
+        <where>
+            <if test="username!=null and username.length>0">
+                username like "%"#{username}"%"
+            </if>
+            <if test="age!=null">
+                and age &gt;#{age}
+            </if>
+        </where>
+
+    </select>
+
+    <!--set 可以自动添加一个set关键字，可以自动处理最后一个逗号-->
+    <update id="updateSet" parameterType="com.yss.domain.User">
+        update  t_user
+        <set>
+            <if test="username!=null and username.length>0">
+                username = #{username},
+            </if>
+            <if test="age!=null">
+                age = #{age}
+            </if>
+        </set>
+         where id = #{id}
+
+    </update>
+
+    <!-- 最终需要的：delete from t_user where id in (1,2,34,55,66) -->
+    <!--
+        foreach: 循环标签
+          collection:  类型： array,list
+          open: 前缀
+          close: 后缀
+          index： 索引，一般不用
+          separator: 分隔符
+          item： 集合或者数组中的每一个元素
+    -->
+    <delete id="delByIdList" parameterType="list">
+    delete  from t_user
+    <foreach collection="list" open="where id in (" item="item" separator="," close=")" >
+        #{item}
+    </foreach>
+</delete>
+
+    <delete id="delByIdArray" parameterType="int[]">
+        delete  from t_user
+        <foreach collection="array" open="where id in (" item="item" separator="," close=")" >
+            #{item}
+        </foreach>
+    </delete>
+
+<!--  多条件查询 queryVo-->
+    <select id="findByCondition" parameterType="com.yss.domain.QueryVo" resultType="com.yss.domain.User">
+      select <include refid="base_column"/>
+       from t_user where username like "%"#{username}"%" limit #{startIndex},#{pageSize}
+
+    </select>
+    <!--  多条件查询 map-->
+    <select id="findByCondition2" parameterType="map" resultType="com.yss.domain.User">
+      select <include refid="base_column"/>
+        from t_user where username like "%"#{username}"%" limit #{startIndex},#{pageSize}
+    </select>
+
+    <!--  多条件查询 多个条件顺序是固定的-->
+    <select id="findByCondition3"  resultType="com.yss.domain.User">
+      select <include refid="base_column"/>
+       from t_user where username like "%"#{param1}"%" limit #{param2},#{param3}
+    </select>
+
+    <!--  多条件查询 不关心顺序-->
+    <select id="findByCondition4"  resultType="com.yss.domain.User">
+      select <include refid="base_column"/>
+       from t_user where username like "%"#{username}"%" limit #{startIndex},#{pageSize}
+
+    </select>
+
+
+    <insert id="addRebackKey" parameterType="com.yss.domain.User">
+         <selectKey resultType="java.lang.Integer" keyColumn="id" keyProperty="id" order="AFTER">
+              select last_insert_id()
+         </selectKey>
+        insert into t_user values(null, #{username,jdbcType=VARCHAR},#{age,jdbcType=INTEGER} )
+
+    </insert>
+
+    <!-- #{}  ${}
+   #{} ： 相当于占位符，可以转换类型，防注入
+           如果是简单类型： #{随便写}
+           如果是Pojo:#{属性名}
+   ${} : 不可以转换类型，不能防注入，直接拼接
+           如果是简单类型： ${value}
+           如果是Pojo:${属性名}
+ -->
+    <select id="FindbyUsername" parameterType="java.lang.String"
+            resultType="com.yss.domain.User">
+        select <include refid="base_column"/>
+        from t_user where username like "%"#{username}"%"
+    </select>
+
+ <!--结果映射,因为数据库的字段名与dto中的不相同时,进行映射-->
+    <resultMap type="com.yss.domain.User" id="BaseResultMap">
+         <result property="id" column="id"/>
+    </resultMap>
+    <select id="findAll" resultType="com.yss.domain.User" resultMap="BaseResultMap" >
+         select <include refid="base_column"/>from t_user
+    </select>
+    <!--
+    parameterType: 参数类型
+-->
+    <insert id="add" parameterType="com.yss.domain.User">
+        insert into t_user values(null, #{username,jdbcType=VARCHAR},#{age,jdbcType=INTEGER} )
+    </insert>
+
+    <delete id="deleteById" parameterType="java.lang.Integer">
+        delete from t_user where id=#{id,jdbcType=INTEGER}
+    </delete>
+
+    <update id="update" parameterType="com.yss.domain.User">
+        update  t_user set username = #{username}, age = #{age} where id = #{id}
+    </update>
+
+<resultMap id="findAllMap" type="com.yss.domain.User">
+    <id column="id" property="id"/>
+    <result column="username" property="username"/>
+    <result column="age" property="age"/>
+    <!--collection: 映射多个Account对象-->
+    <!--ofType: 集合对象的泛型-->
+    <!--property 属性名-->
+    <collection property="accountBOList" ofType="com.yss.entity.bo.AccountBO">
+        <result column="aid" property="id"/>
+        <result column="name" property="name"/>
+        <result column="userid" property="userId"/>
+
+    </collection>
+
+</resultMap>
+
+    <select id="findAllo2m" resultMap="findAllMap">
+      select * from t_user u,account a where a.userId = u.id
+    </select>
+
+</mapper>
