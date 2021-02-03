@@ -15,6 +15,7 @@
             </dataSource>
         </environment>
     </environments>
+
     <mappers>
       <mapper resource="com/yss/mapper/UserMapper.xml"/>
         <mapper resource="com/yss/mapper/AccountMapper.xml"/>

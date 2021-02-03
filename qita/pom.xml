@@ -201,6 +201,29 @@
             <version>1.3.0.Final</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.local.bcprov</groupId>
+            <artifactId>bcprov-jdk15on-159</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/bcprov-jdk15on-159.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.rh.cipher.sm3</groupId>
+            <artifactId>sm3Encry.jar</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/sm3Encry.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.rh.cipher.sm4</groupId>
+            <artifactId>sm4Encry.jar</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/sm4Encry.jar</systemPath>
+        </dependency>
 
     </dependencies>
 
@@ -209,6 +232,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <includeSystemScope>true</includeSystemScope>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
