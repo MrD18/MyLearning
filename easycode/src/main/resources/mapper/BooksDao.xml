@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dhao.dao.BooksDao">
+
+    <resultMap id="BaseResultMap" type="com.dhao.entity.Books">
+        <!--@Table books-->
+        <result property="bookid" column="bookID" jdbcType="INTEGER"/>
+        <result property="bookname" column="bookName" jdbcType="VARCHAR"/>
+        <result property="bookcounts" column="bookCounts" jdbcType="INTEGER"/>
+        <result property="detail" column="detail" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="BaseResultMap">
+        select
+          bookID, bookName, bookCounts, detail
+        from ssmbuild.books
+        where bookID = #{bookid}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="BaseResultMap">
+        select
+          bookID, bookName, bookCounts, detail
+        from ssmbuild.books
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="BaseResultMap">
+        select
+          bookID, bookName, bookCounts, detail
+        from ssmbuild.books
+        <where>
+            <if test="bookid != null">
+                and bookID = #{bookid}
+            </if>
+            <if test="bookname != null and bookname != ''">
+                and bookName = #{bookname}
+            </if>
+            <if test="bookcounts != null">
+                and bookCounts = #{bookcounts}
+            </if>
+            <if test="detail != null and detail != ''">
+                and detail = #{detail}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="bookid" useGeneratedKeys="true">
+        insert into ssmbuild.books(bookName, bookCounts, detail)
+        values (#{bookname}, #{bookcounts}, #{detail})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update ssmbuild.books
+        <set>
+            <if test="bookname != null and bookname != ''">
+                bookName = #{bookname},
+            </if>
+            <if test="bookcounts != null">
+                bookCounts = #{bookcounts},
+            </if>
+            <if test="detail != null and detail != ''">
+                detail = #{detail},
+            </if>
+        </set>
+        where bookID = #{bookid}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from ssmbuild.books where bookID = #{bookid}
+    </delete>
+
+</mapper>

@@ -23,6 +23,7 @@ public class YssBeanFactoryPostProcessor  implements BeanFactoryPostProcessor {
         Iterator<String> beanNamesIterator = configurableListableBeanFactory.getBeanNamesIterator();
         beanNamesIterator.forEachRemaining(s-> {
             BeanDefinition beanDefinition = configurableListableBeanFactory.getBeanDefinition(s);
+            System.out.println("-------到底做了啥--------");
             System.out.println(beanDefinition.getBeanClassName());
         });
     }

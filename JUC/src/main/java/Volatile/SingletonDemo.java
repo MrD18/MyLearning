@@ -6,6 +6,7 @@ package Volatile;
  * 禁止指令重排
  * @author: duhao
  * @date: 2020/6/11 16:38
+ *饿汉式
  */
 public class SingletonDemo {
     // Volatile的应用
@@ -29,5 +30,7 @@ public class SingletonDemo {
                     SingletonDemo.getInstance();
                 },String.valueOf(i)).start();
          }
+
+
     }
 }

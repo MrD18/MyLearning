@@ -1,0 +1,1293 @@
+2020-12-10 13:07:47,208 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:07:47,371 163    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:07:47,371 163    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:07:47,371 163    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:07:47,371 163    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:07:47,481 273    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 13:07:47,805 597    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1325144078.
+2020-12-10 13:07:47,805 597    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:07:47,808 600    [           main] DEBUG                       test.add  - ==>  Preparing: insert into t_user values(null, ?,? ) 
+2020-12-10 13:07:47,853 645    [           main] DEBUG                       test.add  - ==> Parameters: 王五(String), 5(Integer)
+2020-12-10 13:07:47,855 647    [           main] DEBUG                       test.add  - <==    Updates: 1
+2020-12-10 13:07:47,856 648    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:07:47,861 653    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:07:47,862 654    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:07:47,862 654    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1325144078 to pool.
+2020-12-10 13:12:28,074 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:12:28,218 144    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:12:28,218 144    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:12:28,218 144    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:12:28,218 144    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:12:28,319 245    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 13:12:28,608 534    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1325144078.
+2020-12-10 13:12:28,608 534    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:12:28,610 536    [           main] DEBUG                       test.add  - ==>  Preparing: insert into t_user values(null, ?,? ) 
+2020-12-10 13:12:28,649 575    [           main] DEBUG                       test.add  - ==> Parameters: 王五(String), 5(Integer)
+2020-12-10 13:12:28,660 586    [           main] DEBUG                       test.add  - <==    Updates: 1
+2020-12-10 13:12:28,660 586    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:12:28,664 590    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:12:28,665 591    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:12:28,665 591    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1325144078 to pool.
+2020-12-10 13:20:03,716 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:20:03,847 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:20:03,847 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:20:03,847 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:20:03,847 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:21:04,373 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:21:04,516 143    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:21:04,516 143    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:21:04,516 143    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:21:04,517 144    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:21:32,138 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:21:32,271 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:21:32,271 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:21:32,271 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:21:32,271 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:21:38,765 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:21:38,903 138    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:21:38,904 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:21:38,904 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:21:38,904 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:22:35,181 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:22:35,324 143    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:22:35,324 143    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:22:35,324 143    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:22:35,324 143    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:22:35,428 247    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 13:22:35,734 553    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1325144078.
+2020-12-10 13:22:35,734 553    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:22:35,736 555    [           main] DEBUG                test.deleteById  - ==>  Preparing: delete from t_user where id=? 
+2020-12-10 13:22:35,772 591    [           main] DEBUG                test.deleteById  - ==> Parameters: 4(Integer)
+2020-12-10 13:22:35,774 593    [           main] DEBUG                test.deleteById  - <==    Updates: 1
+2020-12-10 13:22:35,774 593    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:22:35,777 596    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:22:35,777 596    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:22:35,778 597    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1325144078 to pool.
+2020-12-10 13:23:01,096 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:23:01,246 150    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:23:01,246 150    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:23:01,246 150    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:23:01,246 150    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:23:01,348 252    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 13:23:01,660 564    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1325144078.
+2020-12-10 13:23:01,661 565    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:23:01,663 567    [           main] DEBUG                test.deleteById  - ==>  Preparing: delete from t_user where id=? 
+2020-12-10 13:23:01,697 601    [           main] DEBUG                test.deleteById  - ==> Parameters: 4(Integer)
+2020-12-10 13:23:01,698 602    [           main] DEBUG                test.deleteById  - <==    Updates: 1
+2020-12-10 13:23:01,698 602    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:23:01,703 607    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:23:01,703 607    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:23:01,704 608    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1325144078 to pool.
+2020-12-10 13:30:08,573 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:30:08,707 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:30:08,708 135    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:30:08,708 135    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:30:08,708 135    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:30:08,818 245    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 13:30:09,140 567    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1325144078.
+2020-12-10 13:30:09,140 567    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:30:09,142 569    [           main] DEBUG                    test.delete  - ==>  Preparing: update t_user set username = ?, age = ? where id = ? 
+2020-12-10 13:30:09,176 603    [           main] DEBUG                    test.delete  - ==> Parameters: 改王五(String), 6(Integer), 3(Integer)
+2020-12-10 13:30:09,178 605    [           main] DEBUG                    test.delete  - <==    Updates: 1
+2020-12-10 13:30:09,178 605    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:30:09,191 618    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:30:09,192 619    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:30:09,192 619    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1325144078 to pool.
+2020-12-10 13:30:38,331 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:30:38,481 150    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:30:38,482 151    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:30:38,482 151    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:30:38,482 151    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:30:38,596 265    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 13:30:38,896 565    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1325144078.
+2020-12-10 13:30:38,896 565    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:30:38,899 568    [           main] DEBUG                    test.delete  - ==>  Preparing: update t_user set username = ?, age = ? where id = ? 
+2020-12-10 13:30:38,940 609    [           main] DEBUG                    test.delete  - ==> Parameters: 改王五(String), 6(Integer), 3(Integer)
+2020-12-10 13:30:38,942 611    [           main] DEBUG                    test.delete  - <==    Updates: 1
+2020-12-10 13:30:38,942 611    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:30:38,949 618    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:30:38,950 619    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:30:38,950 619    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1325144078 to pool.
+2020-12-10 13:32:56,516 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:32:56,653 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:32:56,654 138    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:32:56,654 138    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:32:56,654 138    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:32:56,757 241    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 13:32:57,070 554    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1325144078.
+2020-12-10 13:32:57,071 555    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:32:57,073 557    [           main] DEBUG                       test.add  - ==>  Preparing: insert into t_user values(null, ?,? ) 
+2020-12-10 13:32:57,111 595    [           main] DEBUG                       test.add  - ==> Parameters: 张飞(String), 15(Integer)
+2020-12-10 13:32:57,121 605    [           main] DEBUG                       test.add  - <==    Updates: 1
+2020-12-10 13:32:57,122 606    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:32:57,125 609    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:32:57,126 610    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:32:57,127 611    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1325144078 to pool.
+2020-12-10 13:33:16,119 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:33:16,251 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:33:16,251 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:33:16,251 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:33:16,251 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:33:16,347 228    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 13:33:16,673 554    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1325144078.
+2020-12-10 13:33:16,673 554    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:33:16,676 557    [           main] DEBUG                       test.add  - ==>  Preparing: insert into t_user values(null, ?,? ) 
+2020-12-10 13:33:16,713 594    [           main] DEBUG                       test.add  - ==> Parameters: 张三丰(String), 25(Integer)
+2020-12-10 13:33:16,716 597    [           main] DEBUG                       test.add  - <==    Updates: 1
+2020-12-10 13:33:16,717 598    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:33:16,722 603    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:33:16,723 604    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:33:16,723 604    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1325144078 to pool.
+2020-12-10 13:33:41,194 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:33:41,352 159    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:33:41,352 159    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:33:41,352 159    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:33:41,353 160    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:33:41,450 257    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 13:33:41,748 555    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1325144078.
+2020-12-10 13:33:41,749 556    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:33:41,751 558    [           main] DEBUG                       test.add  - ==>  Preparing: insert into t_user values(null, ?,? ) 
+2020-12-10 13:33:41,780 587    [           main] DEBUG                       test.add  - ==> Parameters: 老张(String), 35(Integer)
+2020-12-10 13:33:41,783 590    [           main] DEBUG                       test.add  - <==    Updates: 1
+2020-12-10 13:33:41,784 591    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:33:41,787 594    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:33:41,788 595    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:33:41,788 595    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1325144078 to pool.
+2020-12-10 13:34:00,053 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:34:00,213 160    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:34:00,214 161    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:34:00,214 161    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:34:00,214 161    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:34:00,321 268    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 13:34:00,653 600    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1325144078.
+2020-12-10 13:34:00,653 600    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:34:00,656 603    [           main] DEBUG                       test.add  - ==>  Preparing: insert into t_user values(null, ?,? ) 
+2020-12-10 13:34:00,699 646    [           main] DEBUG                       test.add  - ==> Parameters: 老张头(String), 45(Integer)
+2020-12-10 13:34:00,701 648    [           main] DEBUG                       test.add  - <==    Updates: 1
+2020-12-10 13:34:00,701 648    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:34:00,705 652    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:34:00,705 652    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4efc180e]
+2020-12-10 13:34:00,706 653    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1325144078 to pool.
+2020-12-10 13:40:19,299 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 13:40:19,435 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:40:19,435 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:40:19,435 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:40:19,435 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 13:40:19,544 245    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 13:40:19,854 555    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1292838001.
+2020-12-10 13:40:19,854 555    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d0f2471]
+2020-12-10 13:40:19,857 558    [           main] DEBUG            test.FindbyUsername  - ==>  Preparing: select * from t_user where username like "%"?"%" 
+2020-12-10 13:40:19,896 597    [           main] DEBUG            test.FindbyUsername  - ==> Parameters: 张(String)
+2020-12-10 13:40:19,920 621    [           main] DEBUG            test.FindbyUsername  - <==      Total: 5
+2020-12-10 13:40:19,920 621    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d0f2471]
+2020-12-10 13:40:19,921 622    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d0f2471]
+2020-12-10 13:40:19,921 622    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1292838001 to pool.
+2020-12-10 14:00:06,153 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 14:00:06,300 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:00:06,300 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:00:06,300 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:00:06,300 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:00:06,419 266    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 14:00:06,727 574    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 359368949.
+2020-12-10 14:00:06,727 574    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@156b88f5]
+2020-12-10 14:00:06,730 577    [           main] DEBUG              test.addRebackKey  - ==>  Preparing: insert into t_user values(null, ?,? ) 
+2020-12-10 14:00:06,760 607    [           main] DEBUG              test.addRebackKey  - ==> Parameters: 主键回显(String), 55(Integer)
+2020-12-10 14:00:06,766 613    [           main] DEBUG              test.addRebackKey  - <==    Updates: 1
+2020-12-10 14:00:06,768 615    [           main] DEBUG    test.addRebackKey!selectKey  - ==>  Preparing: select last_insert_id() 
+2020-12-10 14:00:06,769 616    [           main] DEBUG    test.addRebackKey!selectKey  - ==> Parameters: 
+2020-12-10 14:00:06,787 634    [           main] DEBUG    test.addRebackKey!selectKey  - <==      Total: 1
+2020-12-10 14:00:06,787 634    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@156b88f5]
+2020-12-10 14:20:59,912 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 14:21:00,074 162    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:21:00,074 162    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:21:00,074 162    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:21:00,074 162    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:25:50,369 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 14:25:50,498 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:25:50,498 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:25:50,498 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:25:50,499 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:25:50,606 237    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 14:25:51,032 663    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1944201789.
+2020-12-10 14:25:51,032 663    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@73e22a3d]
+2020-12-10 14:25:51,037 668    [           main] DEBUG            test.FindbyUsername  - ==>  Preparing: select * from t_user where username like "%"?"%" 
+2020-12-10 14:25:51,089 720    [           main] DEBUG            test.FindbyUsername  - ==> Parameters: 张(String)
+2020-12-10 14:25:51,109 740    [           main] DEBUG            test.FindbyUsername  - <==      Total: 5
+2020-12-10 14:25:51,110 741    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@73e22a3d]
+2020-12-10 14:25:51,111 742    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@73e22a3d]
+2020-12-10 14:25:51,111 742    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1944201789 to pool.
+2020-12-10 14:34:52,182 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 14:34:52,321 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:34:52,321 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:34:52,321 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:34:52,321 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:36:03,854 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 14:36:04,010 156    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:36:04,010 156    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:36:04,010 156    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:36:04,010 156    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:36:04,138 284    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 14:36:04,450 596    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1670546046.
+2020-12-10 14:36:04,451 597    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6392827e]
+2020-12-10 14:36:04,453 599    [           main] DEBUG .yss.mapper.UserMapper.findAll  - ==>  Preparing: select * from t_user 
+2020-12-10 14:36:04,491 637    [           main] DEBUG .yss.mapper.UserMapper.findAll  - ==> Parameters: 
+2020-12-10 14:36:04,513 659    [           main] DEBUG .yss.mapper.UserMapper.findAll  - <==      Total: 8
+2020-12-10 14:36:04,514 660    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6392827e]
+2020-12-10 14:36:04,515 661    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6392827e]
+2020-12-10 14:36:04,515 661    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1670546046 to pool.
+2020-12-10 14:36:54,011 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 14:36:54,119 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:36:54,120 109    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:36:54,120 109    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:36:54,120 109    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 14:36:54,216 205    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 14:36:54,504 493    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 603856241.
+2020-12-10 14:36:54,504 493    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@23fe1d71]
+2020-12-10 14:36:54,507 496    [           main] DEBUG pper.UserMapper.FindbyUsername  - ==>  Preparing: select * from t_user where username like "%"?"%" 
+2020-12-10 14:36:54,542 531    [           main] DEBUG pper.UserMapper.FindbyUsername  - ==> Parameters: 张(String)
+2020-12-10 14:36:54,560 549    [           main] DEBUG pper.UserMapper.FindbyUsername  - <==      Total: 5
+2020-12-10 14:36:54,561 550    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@23fe1d71]
+2020-12-10 14:36:54,562 551    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@23fe1d71]
+2020-12-10 14:36:54,562 551    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 603856241 to pool.
+2020-12-10 16:00:01,427 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 16:00:01,591 164    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:00:01,591 164    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:00:01,591 164    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:00:01,591 164    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:00:01,728 301    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 16:00:02,030 603    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 875313400.
+2020-12-10 16:00:02,030 603    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@342c38f8]
+2020-12-10 16:00:02,034 607    [           main] DEBUG per.UserMapper.findByCondition  - ==>  Preparing: select * from t_user where username like "%"?"%" limit ?,? 
+2020-12-10 16:00:02,064 637    [           main] DEBUG per.UserMapper.findByCondition  - ==> Parameters: 张(String), 0(Integer), 3(Integer)
+2020-12-10 16:00:02,087 660    [           main] DEBUG per.UserMapper.findByCondition  - <==      Total: 3
+2020-12-10 16:00:02,088 661    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@342c38f8]
+2020-12-10 16:00:02,088 661    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@342c38f8]
+2020-12-10 16:00:02,089 662    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 875313400 to pool.
+2020-12-10 16:00:23,195 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 16:00:23,331 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:00:23,331 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:00:23,331 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:00:23,331 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:00:23,453 258    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 16:00:23,770 575    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 875313400.
+2020-12-10 16:00:23,770 575    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@342c38f8]
+2020-12-10 16:00:23,773 578    [           main] DEBUG per.UserMapper.findByCondition  - ==>  Preparing: select * from t_user where username like "%"?"%" limit ?,? 
+2020-12-10 16:00:23,806 611    [           main] DEBUG per.UserMapper.findByCondition  - ==> Parameters: 张(String), 0(Integer), 7(Integer)
+2020-12-10 16:00:23,824 629    [           main] DEBUG per.UserMapper.findByCondition  - <==      Total: 5
+2020-12-10 16:00:23,825 630    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@342c38f8]
+2020-12-10 16:00:23,825 630    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@342c38f8]
+2020-12-10 16:00:23,826 631    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 875313400 to pool.
+2020-12-10 16:07:02,798 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 16:07:02,944 146    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:07:02,945 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:07:02,945 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:07:02,945 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:07:03,092 294    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 16:07:03,389 591    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1560940633.
+2020-12-10 16:07:03,389 591    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5d0a1059]
+2020-12-10 16:07:03,392 594    [           main] DEBUG er.UserMapper.findByCondition2  - ==>  Preparing: select * from t_user where username like "%"?"%" limit ?,? 
+2020-12-10 16:07:03,426 628    [           main] DEBUG er.UserMapper.findByCondition2  - ==> Parameters: 张(String), 0(Integer), 3(Integer)
+2020-12-10 16:07:03,446 648    [           main] DEBUG er.UserMapper.findByCondition2  - <==      Total: 3
+2020-12-10 16:07:03,447 649    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5d0a1059]
+2020-12-10 16:07:03,448 650    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5d0a1059]
+2020-12-10 16:07:03,448 650    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1560940633 to pool.
+2020-12-10 16:12:18,862 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 16:12:19,012 150    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:12:19,012 150    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:12:19,012 150    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:12:19,013 151    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:12:19,146 284    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 16:12:19,442 580    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 936653983.
+2020-12-10 16:12:19,442 580    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@37d4349f]
+2020-12-10 16:12:19,445 583    [           main] DEBUG er.UserMapper.findByCondition3  - ==>  Preparing: select * from t_user where username like "%"?"%" limit ?,? 
+2020-12-10 16:12:19,481 619    [           main] DEBUG er.UserMapper.findByCondition3  - ==> Parameters: 张(String), 0(Integer), 3(Integer)
+2020-12-10 16:12:19,501 639    [           main] DEBUG er.UserMapper.findByCondition3  - <==      Total: 3
+2020-12-10 16:12:19,502 640    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@37d4349f]
+2020-12-10 16:12:19,503 641    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37d4349f]
+2020-12-10 16:12:19,503 641    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 936653983 to pool.
+2020-12-10 16:16:05,810 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 16:16:05,942 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:16:05,946 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:16:05,946 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:16:05,946 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:16:06,080 270    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 16:16:06,387 577    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1128948651.
+2020-12-10 16:16:06,387 577    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@434a63ab]
+2020-12-10 16:16:06,390 580    [           main] DEBUG er.UserMapper.findByCondition4  - ==>  Preparing: select * from t_user where username like "%"?"%" limit ?,? 
+2020-12-10 16:16:06,425 615    [           main] DEBUG er.UserMapper.findByCondition4  - ==> Parameters: 张(String), 0(Integer), 3(Integer)
+2020-12-10 16:16:06,445 635    [           main] DEBUG er.UserMapper.findByCondition4  - <==      Total: 3
+2020-12-10 16:16:06,446 636    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@434a63ab]
+2020-12-10 16:16:06,446 636    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@434a63ab]
+2020-12-10 16:16:06,446 636    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1128948651 to pool.
+2020-12-10 16:16:24,561 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 16:16:24,711 150    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:16:24,711 150    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:16:24,711 150    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:16:24,712 151    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:16:24,863 302    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 16:16:25,175 614    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1128948651.
+2020-12-10 16:16:25,175 614    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@434a63ab]
+2020-12-10 16:16:25,178 617    [           main] DEBUG er.UserMapper.findByCondition4  - ==>  Preparing: select * from t_user where username like "%"?"%" limit ?,? 
+2020-12-10 16:16:25,216 655    [           main] DEBUG er.UserMapper.findByCondition4  - ==> Parameters: 张(String), 0(Integer), 4(Integer)
+2020-12-10 16:16:25,237 676    [           main] DEBUG er.UserMapper.findByCondition4  - <==      Total: 4
+2020-12-10 16:16:25,238 677    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@434a63ab]
+2020-12-10 16:16:25,238 677    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@434a63ab]
+2020-12-10 16:16:25,239 678    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1128948651 to pool.
+2020-12-10 16:19:07,107 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 16:19:07,252 145    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:19:07,252 145    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:19:07,253 146    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:19:07,253 146    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:19:07,385 278    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 16:19:07,687 580    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 210281271.
+2020-12-10 16:19:07,687 580    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@c88a337]
+2020-12-10 16:19:07,689 582    [           main] DEBUG .yss.mapper.UserMapper.findAll  - ==>  Preparing: select * from t_user 
+2020-12-10 16:19:07,728 621    [           main] DEBUG .yss.mapper.UserMapper.findAll  - ==> Parameters: 
+2020-12-10 16:19:07,754 647    [           main] DEBUG .yss.mapper.UserMapper.findAll  - <==      Total: 8
+2020-12-10 16:19:07,755 648    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@c88a337]
+2020-12-10 16:19:07,755 648    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@c88a337]
+2020-12-10 16:19:07,755 648    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 210281271 to pool.
+2020-12-10 16:20:11,343 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 16:20:11,474 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:20:11,474 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:20:11,474 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:20:11,474 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:20:11,596 253    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 16:20:11,899 556    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 210281271.
+2020-12-10 16:20:11,899 556    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@c88a337]
+2020-12-10 16:20:11,902 559    [           main] DEBUG .yss.mapper.UserMapper.findAll  - ==>  Preparing: select * from t_user 
+2020-12-10 16:20:11,936 593    [           main] DEBUG .yss.mapper.UserMapper.findAll  - ==> Parameters: 
+2020-12-10 16:20:11,957 614    [           main] DEBUG .yss.mapper.UserMapper.findAll  - <==      Total: 8
+2020-12-10 16:20:11,958 615    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@c88a337]
+2020-12-10 16:20:11,959 616    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@c88a337]
+2020-12-10 16:20:11,959 616    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 210281271 to pool.
+2020-12-10 16:28:39,085 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 16:28:39,240 155    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:28:39,240 155    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:28:39,241 156    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:28:39,241 156    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:28:39,381 296    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 16:28:39,707 622    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1846501247.
+2020-12-10 16:28:39,707 622    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0f5f7f]
+2020-12-10 16:28:39,710 625    [           main] DEBUG .yss.mapper.UserMapper.findAll  - ==>  Preparing: select * from t_user 
+2020-12-10 16:28:39,743 658    [           main] DEBUG .yss.mapper.UserMapper.findAll  - ==> Parameters: 
+2020-12-10 16:28:39,765 680    [           main] DEBUG .yss.mapper.UserMapper.findAll  - <==      Total: 8
+2020-12-10 16:28:39,765 680    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0f5f7f]
+2020-12-10 16:28:39,766 681    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0f5f7f]
+2020-12-10 16:28:39,766 681    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1846501247 to pool.
+2020-12-10 16:33:25,608 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 16:33:25,743 135    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:33:25,743 135    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:33:25,743 135    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:33:25,744 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 16:33:25,876 268    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 16:33:26,189 581    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1846501247.
+2020-12-10 16:33:26,190 582    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0f5f7f]
+2020-12-10 16:33:26,193 585    [           main] DEBUG .yss.mapper.UserMapper.findAll  - ==>  Preparing: select * from t_user 
+2020-12-10 16:33:26,226 618    [           main] DEBUG .yss.mapper.UserMapper.findAll  - ==> Parameters: 
+2020-12-10 16:33:26,246 638    [           main] DEBUG .yss.mapper.UserMapper.findAll  - <==      Total: 8
+2020-12-10 16:33:26,247 639    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0f5f7f]
+2020-12-10 16:33:26,248 640    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0f5f7f]
+2020-12-10 16:33:26,248 640    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1846501247 to pool.
+2020-12-10 19:31:04,652 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:31:04,775 123    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:31:04,775 123    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:31:04,776 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:31:04,776 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:31:04,899 247    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:31:05,185 533    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1113619023.
+2020-12-10 19:31:05,186 534    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@42607a4f]
+2020-12-10 19:31:05,189 537    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user where username like "%"?"%" and age >? 
+2020-12-10 19:31:05,228 576    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 张(String), 18(Integer)
+2020-12-10 19:31:05,249 597    [           main] DEBUG .yss.mapper.UserMapper.findAge  - <==      Total: 3
+2020-12-10 19:31:23,787 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:31:23,915 128    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:31:23,916 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:31:23,916 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:31:23,916 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:31:24,039 252    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:31:24,314 527    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1113619023.
+2020-12-10 19:31:24,314 527    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@42607a4f]
+2020-12-10 19:31:24,317 530    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user where username like "%"?"%" and age >? 
+2020-12-10 19:31:24,358 571    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 张(String), 25(Integer)
+2020-12-10 19:31:24,377 590    [           main] DEBUG .yss.mapper.UserMapper.findAge  - <==      Total: 2
+2020-12-10 19:31:46,095 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:31:46,216 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:31:46,216 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:31:46,216 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:31:46,216 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:31:46,335 240    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:31:46,600 505    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1113619023.
+2020-12-10 19:31:46,600 505    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@42607a4f]
+2020-12-10 19:31:46,603 508    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user where username like "%"?"%" and age >? 
+2020-12-10 19:31:46,648 553    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 张(String), null
+2020-12-10 19:31:46,663 568    [           main] DEBUG .yss.mapper.UserMapper.findAge  - <==      Total: 0
+2020-12-10 19:32:09,244 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:32:09,356 112    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:32:09,356 112    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:32:09,356 112    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:32:09,356 112    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:32:09,463 219    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:32:09,740 496    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1113619023.
+2020-12-10 19:32:09,741 497    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@42607a4f]
+2020-12-10 19:32:09,743 499    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user where username like "%"?"%" and age >? 
+2020-12-10 19:32:09,774 530    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: null, 25(Integer)
+2020-12-10 19:36:14,652 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:36:14,778 126    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:36:14,778 126    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:36:14,778 126    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:36:14,778 126    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:36:14,959 307    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:36:15,256 604    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 508198356.
+2020-12-10 19:36:15,256 604    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1e4a7dd4]
+2020-12-10 19:36:15,258 606    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user where and age >? 
+2020-12-10 19:36:15,291 639    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 25(Integer)
+2020-12-10 19:36:23,400 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:36:23,564 165    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:36:23,564 165    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:36:23,564 165    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:36:23,564 165    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:36:23,766 367    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:36:24,089 690    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1187903677.
+2020-12-10 19:36:24,089 690    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@46cdf8bd]
+2020-12-10 19:36:24,093 694    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user where and age >? 
+2020-12-10 19:36:24,125 726    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 25(Integer)
+2020-12-10 19:36:58,075 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:36:58,214 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:36:58,214 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:36:58,214 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:36:58,214 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:36:58,404 329    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:36:58,714 639    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1965445467.
+2020-12-10 19:36:58,714 639    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7526515b]
+2020-12-10 19:36:58,717 642    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user where username like "%"?"%" and age >? 
+2020-12-10 19:36:58,752 677    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 张(String), 25(Integer)
+2020-12-10 19:36:58,770 695    [           main] DEBUG .yss.mapper.UserMapper.findAge  - <==      Total: 2
+2020-12-10 19:37:16,536 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:37:16,694 158    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:37:16,694 158    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:37:16,695 159    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:37:16,695 159    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:37:16,882 346    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:37:17,174 638    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1965445467.
+2020-12-10 19:37:17,174 638    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7526515b]
+2020-12-10 19:37:17,177 641    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user where username like "%"?"%" 
+2020-12-10 19:37:17,212 676    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 张(String)
+2020-12-10 19:37:17,232 696    [           main] DEBUG .yss.mapper.UserMapper.findAge  - <==      Total: 5
+2020-12-10 19:37:48,122 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:37:48,227 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:37:48,227 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:37:48,227 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:37:48,227 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:37:48,366 244    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:37:48,638 516    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1475491159.
+2020-12-10 19:37:48,639 517    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@57f23557]
+2020-12-10 19:37:48,641 519    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user where and age >? 
+2020-12-10 19:37:48,672 550    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 18(Integer)
+2020-12-10 19:38:28,346 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:38:28,486 140    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:38:28,486 140    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:38:28,486 140    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:38:28,486 140    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:38:28,666 320    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:38:28,959 613    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1187903677.
+2020-12-10 19:38:28,959 613    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@46cdf8bd]
+2020-12-10 19:38:28,962 616    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user where 1=1 and age >? 
+2020-12-10 19:38:28,995 649    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 18(Integer)
+2020-12-10 19:38:29,014 668    [           main] DEBUG .yss.mapper.UserMapper.findAge  - <==      Total: 4
+2020-12-10 19:43:11,672 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:43:11,842 170    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:43:11,842 170    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:43:11,842 170    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:43:11,843 171    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:43:12,041 369    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:43:12,356 684    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1833789138.
+2020-12-10 19:43:12,357 685    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6d4d66d2]
+2020-12-10 19:43:12,360 688    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user --where 1=1 可用where标签代替 WHERE age >? 
+2020-12-10 19:43:12,402 730    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 18(Integer)
+2020-12-10 19:43:46,122 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:43:46,260 138    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:43:46,261 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:43:46,261 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:43:46,261 139    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:43:46,452 330    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:43:46,766 644    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1833789138.
+2020-12-10 19:43:46,766 644    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6d4d66d2]
+2020-12-10 19:43:46,769 647    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: --where 1=1 可用where标签代替 select * from t_user WHERE age >? 
+2020-12-10 19:43:46,802 680    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 18(Integer)
+2020-12-10 19:44:21,389 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:44:21,574 185    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:44:21,574 185    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:44:21,574 185    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:44:21,574 185    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:44:21,785 396    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:44:22,085 696    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1833789138.
+2020-12-10 19:44:22,086 697    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6d4d66d2]
+2020-12-10 19:44:22,089 700    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user WHERE age >? 
+2020-12-10 19:44:22,127 738    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 18(Integer)
+2020-12-10 19:44:22,149 760    [           main] DEBUG .yss.mapper.UserMapper.findAge  - <==      Total: 4
+2020-12-10 19:53:54,552 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:53:54,688 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:53:54,689 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:53:54,689 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:53:54,689 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:53:54,883 331    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:53:55,179 627    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 775445710.
+2020-12-10 19:53:55,180 628    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2e385cce]
+2020-12-10 19:53:55,182 630    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user WHERE age >? 
+2020-12-10 19:53:55,216 664    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 18(Integer)
+2020-12-10 19:53:55,236 684    [           main] DEBUG .yss.mapper.UserMapper.findAge  - <==      Total: 4
+2020-12-10 19:54:11,814 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:54:11,944 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:54:11,944 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:54:11,945 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:54:11,945 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:54:12,135 321    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:54:12,447 633    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 775445710.
+2020-12-10 19:54:12,447 633    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2e385cce]
+2020-12-10 19:54:12,450 636    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select * from t_user WHERE age >? 
+2020-12-10 19:54:12,484 670    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 18(Integer)
+2020-12-10 19:54:12,506 692    [           main] DEBUG .yss.mapper.UserMapper.findAge  - <==      Total: 4
+2020-12-10 19:54:27,948 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:54:28,078 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:54:28,078 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:54:28,078 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:54:28,078 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:54:28,220 272    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:54:28,512 564    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1225038340.
+2020-12-10 19:54:28,513 565    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@49049a04]
+2020-12-10 19:54:28,515 567    [           main] DEBUG ss.mapper.UserMapper.updateSet  - ==>  Preparing: update t_user set username = ?, age = ? where id = ? 
+2020-12-10 19:54:28,548 600    [           main] DEBUG ss.mapper.UserMapper.updateSet  - ==> Parameters: 测试set标签(String), null, 2(Integer)
+2020-12-10 19:54:28,550 602    [           main] DEBUG ss.mapper.UserMapper.updateSet  - <==    Updates: 1
+2020-12-10 19:57:06,180 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 19:57:06,320 140    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:57:06,321 141    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:57:06,321 141    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:57:06,321 141    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 19:57:06,469 289    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 19:57:06,770 590    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1225038340.
+2020-12-10 19:57:06,772 592    [           main] DEBUG ss.mapper.UserMapper.updateSet  - ==>  Preparing: update t_user set username = ?, age = ? where id = ? 
+2020-12-10 19:57:06,812 632    [           main] DEBUG ss.mapper.UserMapper.updateSet  - ==> Parameters: 测试set标签(String), null, 2(Integer)
+2020-12-10 19:57:06,819 639    [           main] DEBUG ss.mapper.UserMapper.updateSet  - <==    Updates: 1
+2020-12-10 20:00:31,923 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 20:00:32,077 154    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:00:32,077 154    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:00:32,077 154    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:00:32,077 154    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:00:32,267 344    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 20:00:32,571 648    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1965445467.
+2020-12-10 20:00:32,573 650    [           main] DEBUG ss.mapper.UserMapper.updateSet  - ==>  Preparing: update t_user SET username = ? where id = ? 
+2020-12-10 20:00:32,609 686    [           main] DEBUG ss.mapper.UserMapper.updateSet  - ==> Parameters: 测试set标签2(String), 2(Integer)
+2020-12-10 20:00:32,614 691    [           main] DEBUG ss.mapper.UserMapper.updateSet  - <==    Updates: 1
+2020-12-10 20:30:32,958 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 20:30:33,144 186    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:30:33,144 186    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:30:33,145 187    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:30:33,145 187    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:30:33,348 390    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 20:30:33,639 681    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1754444726.
+2020-12-10 20:30:33,639 681    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6892b3b6]
+2020-12-10 20:30:33,641 683    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==>  Preparing: select id,username,age from t_user WHERE age >? 
+2020-12-10 20:30:33,679 721    [           main] DEBUG .yss.mapper.UserMapper.findAge  - ==> Parameters: 18(Integer)
+2020-12-10 20:30:33,700 742    [           main] DEBUG .yss.mapper.UserMapper.findAge  - <==      Total: 4
+2020-12-10 20:49:32,188 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 20:49:32,353 165    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:49:32,354 166    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:49:32,354 166    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:49:32,354 166    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:49:32,550 362    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 20:49:32,826 638    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 42544488.
+2020-12-10 20:49:32,826 638    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2892d68]
+2020-12-10 20:49:32,828 640    [           main] DEBUG .mapper.UserMapper.delByIdList  - ==>  Preparing: delete from t_user where id in ( ? , ? , ? , ? , ? ) 
+2020-12-10 20:49:32,862 674    [           main] DEBUG .mapper.UserMapper.delByIdList  - ==> Parameters: 1(Integer), 2(Integer), 3(Integer), 4(Integer), 5(Integer)
+2020-12-10 20:49:32,864 676    [           main] DEBUG .mapper.UserMapper.delByIdList  - <==    Updates: 4
+2020-12-10 20:50:30,152 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 20:50:30,321 169    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:50:30,321 169    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:50:30,321 169    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:50:30,321 169    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:50:30,492 340    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 20:50:30,783 631    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 42544488.
+2020-12-10 20:50:30,786 634    [           main] DEBUG .mapper.UserMapper.delByIdList  - ==>  Preparing: delete from t_user where id in ( ? , ? ) 
+2020-12-10 20:50:30,824 672    [           main] DEBUG .mapper.UserMapper.delByIdList  - ==> Parameters: 11(Integer), 12(Integer)
+2020-12-10 20:50:30,828 676    [           main] DEBUG .mapper.UserMapper.delByIdList  - <==    Updates: 1
+2020-12-10 20:57:20,277 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-10 20:57:20,431 154    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:57:20,431 154    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:57:20,431 154    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:57:20,431 154    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-10 20:57:20,626 349    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-10 20:57:20,960 683    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 14183023.
+2020-12-10 20:57:20,963 686    [           main] DEBUG mapper.UserMapper.delByIdArray  - ==>  Preparing: delete from t_user where id in ( ? , ? , ? ) 
+2020-12-10 20:57:21,000 723    [           main] DEBUG mapper.UserMapper.delByIdArray  - ==> Parameters: 10(Integer), 12(Integer), 13(Integer)
+2020-12-10 20:57:21,004 727    [           main] DEBUG mapper.UserMapper.delByIdArray  - <==    Updates: 3
+2020-12-11 14:02:02,827 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 14:02:03,002 175    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:02:03,003 176    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:02:03,003 176    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:02:03,003 176    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:03:38,784 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 14:03:38,939 155    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:03:38,939 155    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:03:38,939 155    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:03:38,939 155    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:04:54,142 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 14:04:54,288 146    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:04:54,288 146    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:04:54,288 146    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:04:54,288 146    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:06:59,892 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 14:07:00,046 154    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:07:00,046 154    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:07:00,047 155    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:07:00,047 155    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:07:00,216 324    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-11 14:07:00,521 629    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 690052870.
+2020-12-11 14:07:00,522 630    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29215f06]
+2020-12-11 14:07:00,524 632    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select a.aid,a.`name`,u.username,u.age from account a, t_user u where a.userId = u.id 
+2020-12-11 14:07:00,553 661    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-11 14:07:00,582 690    [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-11 14:19:49,227 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 14:19:49,363 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:19:49,363 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:19:49,363 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:19:49,363 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 14:19:49,529 302    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-11 14:19:49,825 598    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 690052870.
+2020-12-11 14:19:49,826 599    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29215f06]
+2020-12-11 14:19:49,828 601    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select a.aid,a.`name`,u.username,u.age from account a, t_user u where a.userId = u.id 
+2020-12-11 14:19:49,864 637    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-11 14:19:49,886 659    [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-11 15:02:47,016 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 15:02:47,152 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:02:47,152 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:02:47,153 138    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:02:47,153 138    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:02:47,307 292    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-11 15:02:47,633 618    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 335359181.
+2020-12-11 15:02:47,633 618    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@13fd2ccd]
+2020-12-11 15:02:47,637 622    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select a.aid,a.`name`,u.username,u.age from account a, t_user u where a.userId = u.id 
+2020-12-11 15:02:47,676 661    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-11 15:02:47,699 684    [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-11 15:04:00,127 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 15:04:00,280 153    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:04:00,281 154    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:04:00,281 154    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:04:00,281 154    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:04:00,447 320    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-11 15:04:00,733 606    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 335359181.
+2020-12-11 15:04:00,734 607    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@13fd2ccd]
+2020-12-11 15:04:00,736 609    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select a.aid,a.`name`,u.username,u.age from account a, t_user u where a.userId = u.id 
+2020-12-11 15:04:00,772 645    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-11 15:04:00,790 663    [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-11 15:04:26,545 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 15:04:26,682 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:04:26,682 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:04:26,682 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:04:26,682 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:04:26,832 287    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-11 15:04:27,122 577    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 335359181.
+2020-12-11 15:04:27,122 577    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@13fd2ccd]
+2020-12-11 15:04:27,125 580    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select a.aid,a.`name`,u.username,u.age from account a, t_user u where a.userId = u.id 
+2020-12-11 15:04:27,160 615    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-11 15:04:27,182 637    [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-11 15:10:30,357 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 15:10:30,489 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:10:30,489 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:10:30,489 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:10:30,490 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 15:10:30,643 286    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-11 15:10:30,960 603    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1219273867.
+2020-12-11 15:10:30,961 604    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@48aca48b]
+2020-12-11 15:10:30,964 607    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select a.aid,a.`name`,u.username,u.age from account a, t_user u where a.userId = u.id 
+2020-12-11 15:10:30,999 642    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-11 15:10:31,020 663    [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-11 16:04:40,278 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 16:04:40,424 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:04:40,424 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:04:40,424 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:04:40,425 148    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:04:40,588 311    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-11 16:04:40,898 621    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1219273867.
+2020-12-11 16:04:40,899 622    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@48aca48b]
+2020-12-11 16:04:40,901 624    [           main] DEBUG s.mapper.UserMapper.findAllo2m  - ==>  Preparing: select * from t_user u,account a where a.userId = u.id 
+2020-12-11 16:04:40,939 662    [           main] DEBUG s.mapper.UserMapper.findAllo2m  - ==> Parameters: 
+2020-12-11 16:04:40,962 685    [           main] DEBUG s.mapper.UserMapper.findAllo2m  - <==      Total: 4
+2020-12-11 16:18:41,096 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 16:18:41,224 128    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:18:41,224 128    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:18:41,224 128    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:18:41,225 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:19:47,578 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 16:19:47,733 155    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:19:47,733 155    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:19:47,733 155    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:19:47,733 155    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:19:59,417 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 16:19:59,550 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:19:59,550 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:19:59,550 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:19:59,550 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:21:33,916 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 16:21:34,058 142    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:21:34,058 142    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:21:34,058 142    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:21:34,059 143    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:24:23,078 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 16:24:23,215 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:24:23,215 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:24:23,215 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:24:23,216 138    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:24:23,392 314    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-11 16:24:23,685 607    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1219273867.
+2020-12-11 16:24:23,685 607    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@48aca48b]
+2020-12-11 16:24:23,688 610    [           main] DEBUG s.mapper.UserMapper.findAllo2m  - ==>  Preparing: select * from t_user u,account a where a.userId = u.id 
+2020-12-11 16:24:23,721 643    [           main] DEBUG s.mapper.UserMapper.findAllo2m  - ==> Parameters: 
+2020-12-11 16:24:23,738 660    [           main] DEBUG s.mapper.UserMapper.findAllo2m  - <==      Total: 4
+2020-12-11 16:38:06,493 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 16:38:06,619 126    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:38:06,619 126    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:38:06,619 126    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:38:06,620 127    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:38:58,758 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 16:38:58,886 128    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:38:58,886 128    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:38:58,886 128    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:38:58,887 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:38:59,043 285    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-11 16:38:59,342 584    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 335359181.
+2020-12-11 16:38:59,343 585    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@13fd2ccd]
+2020-12-11 16:38:59,346 588    [           main] DEBUG s.mapper.UserMapper.findAllo2m  - ==>  Preparing: select * from t_user u,account a where a.userId = u.id 
+2020-12-11 16:38:59,380 622    [           main] DEBUG s.mapper.UserMapper.findAllo2m  - ==> Parameters: 
+2020-12-11 16:39:39,940 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 16:39:40,081 141    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:39:40,082 142    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:39:40,082 142    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:39:40,082 142    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 16:39:40,249 309    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-11 16:39:40,538 598    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 155361948.
+2020-12-11 16:39:40,538 598    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@942a29c]
+2020-12-11 16:39:40,541 601    [           main] DEBUG s.mapper.UserMapper.findAllo2m  - ==>  Preparing: select * from t_user u,account a where a.userId = u.id 
+2020-12-11 16:39:40,578 638    [           main] DEBUG s.mapper.UserMapper.findAllo2m  - ==> Parameters: 
+2020-12-11 16:39:40,607 667    [           main] DEBUG s.mapper.UserMapper.findAllo2m  - <==      Total: 4
+2020-12-11 18:58:06,363 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 18:58:06,470 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 18:58:06,470 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 18:58:06,470 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 18:58:06,470 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 18:58:06,599 236    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-11 18:58:06,881 518    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 832279283.
+2020-12-11 18:58:06,881 518    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@319b92f3]
+2020-12-11 18:58:06,884 521    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select a.aid,a.`name`,u.username,u.age from account a, t_user u where a.userId = u.id 
+2020-12-11 18:58:06,925 562    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-11 18:58:06,950 587    [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-11 19:04:21,521 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 19:04:21,668 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 19:04:21,668 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 19:04:21,668 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 19:04:21,668 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 19:04:21,830 309    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-11 19:04:22,131 610    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1219273867.
+2020-12-11 19:04:22,131 610    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@48aca48b]
+2020-12-11 19:04:22,134 613    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select * from account a, t_user u where a.userId = u.id 
+2020-12-11 19:04:22,166 645    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-11 19:04:22,197 676    [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-11 19:04:56,314 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-11 19:04:56,446 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 19:04:56,446 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 19:04:56,446 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 19:04:56,446 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-11 19:04:56,634 320    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-11 19:04:56,944 630    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 335359181.
+2020-12-11 19:04:56,944 630    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@13fd2ccd]
+2020-12-11 19:04:56,948 634    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select * from account a, t_user u where a.userId = u.id 
+2020-12-11 19:04:56,984 670    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-11 19:04:57,007 693    [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-12 10:45:21,178 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2020-12-12 10:45:21,341 163    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 10:45:21,341 163    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 10:45:21,341 163    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 10:45:21,341 163    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 10:46:17,934 56756  [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-12 10:46:18,424 57246  [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1665197552.
+2020-12-12 10:46:18,424 57246  [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6340e5f0]
+2020-12-12 10:46:18,431 57253  [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select * from account a, t_user u where a.userId = u.id 
+2020-12-12 10:46:18,667 57489  [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-12 10:46:18,828 57650  [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-12 10:46:42,964 81786  [           main] DEBUG ls.converters.BooleanConverter  - Setting default value: false
+2020-12-12 10:46:42,964 81786  [           main] DEBUG ls.converters.BooleanConverter  - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-12-12 10:46:42,965 81787  [           main] DEBUG ls.converters.BooleanConverter  -     No conversion required, value is already a Boolean
+2020-12-12 10:46:42,970 81792  [           main] DEBUG utils.converters.ByteConverter  - Setting default value: 0
+2020-12-12 10:46:42,971 81793  [           main] DEBUG utils.converters.ByteConverter  - Converting 'Integer' value '0' to type 'Byte'
+2020-12-12 10:46:42,971 81793  [           main] DEBUG utils.converters.ByteConverter  -     Converted to Byte value '0'
+2020-12-12 10:46:42,975 81797  [           main] DEBUG .converters.CharacterConverter  - Setting default value:  
+2020-12-12 10:46:42,975 81797  [           main] DEBUG .converters.CharacterConverter  - Converting 'Character' value ' ' to type 'Character'
+2020-12-12 10:46:42,976 81798  [           main] DEBUG .converters.CharacterConverter  -     No conversion required, value is already a Character
+2020-12-12 10:46:42,978 81800  [           main] DEBUG ils.converters.DoubleConverter  - Setting default value: 0
+2020-12-12 10:46:42,978 81800  [           main] DEBUG ils.converters.DoubleConverter  - Converting 'Integer' value '0' to type 'Double'
+2020-12-12 10:46:42,979 81801  [           main] DEBUG ils.converters.DoubleConverter  -     Converted to Double value '0.0'
+2020-12-12 10:46:42,980 81802  [           main] DEBUG tils.converters.FloatConverter  - Setting default value: 0
+2020-12-12 10:46:42,981 81803  [           main] DEBUG tils.converters.FloatConverter  - Converting 'Integer' value '0' to type 'Float'
+2020-12-12 10:46:42,981 81803  [           main] DEBUG tils.converters.FloatConverter  -     Converted to Float value '0.0'
+2020-12-12 10:46:42,983 81805  [           main] DEBUG ls.converters.IntegerConverter  - Setting default value: 0
+2020-12-12 10:46:42,983 81805  [           main] DEBUG ls.converters.IntegerConverter  - Converting 'Integer' value '0' to type 'Integer'
+2020-12-12 10:46:42,983 81805  [           main] DEBUG ls.converters.IntegerConverter  -     No conversion required, value is already a Integer
+2020-12-12 10:46:42,985 81807  [           main] DEBUG utils.converters.LongConverter  - Setting default value: 0
+2020-12-12 10:46:42,985 81807  [           main] DEBUG utils.converters.LongConverter  - Converting 'Integer' value '0' to type 'Long'
+2020-12-12 10:46:42,986 81808  [           main] DEBUG utils.converters.LongConverter  -     Converted to Long value '0'
+2020-12-12 10:46:42,987 81809  [           main] DEBUG tils.converters.ShortConverter  - Setting default value: 0
+2020-12-12 10:46:42,988 81810  [           main] DEBUG tils.converters.ShortConverter  - Converting 'Integer' value '0' to type 'Short'
+2020-12-12 10:46:42,988 81810  [           main] DEBUG tils.converters.ShortConverter  -     Converted to Short value '0'
+2020-12-12 10:46:42,990 81812  [           main] DEBUG converters.BigDecimalConverter  - Setting default value: 0.0
+2020-12-12 10:46:42,990 81812  [           main] DEBUG converters.BigDecimalConverter  - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2020-12-12 10:46:42,990 81812  [           main] DEBUG converters.BigDecimalConverter  -     No conversion required, value is already a BigDecimal
+2020-12-12 10:46:42,992 81814  [           main] DEBUG converters.BigIntegerConverter  - Setting default value: 0
+2020-12-12 10:46:42,992 81814  [           main] DEBUG converters.BigIntegerConverter  - Converting 'BigInteger' value '0' to type 'BigInteger'
+2020-12-12 10:46:42,993 81815  [           main] DEBUG converters.BigIntegerConverter  -     No conversion required, value is already a BigInteger
+2020-12-12 10:46:42,993 81815  [           main] DEBUG ls.converters.BooleanConverter  - Setting default value: false
+2020-12-12 10:46:42,994 81816  [           main] DEBUG ls.converters.BooleanConverter  - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-12-12 10:46:42,994 81816  [           main] DEBUG ls.converters.BooleanConverter  -     No conversion required, value is already a Boolean
+2020-12-12 10:46:42,994 81816  [           main] DEBUG utils.converters.ByteConverter  - Setting default value: 0
+2020-12-12 10:46:42,994 81816  [           main] DEBUG utils.converters.ByteConverter  - Converting 'Integer' value '0' to type 'Byte'
+2020-12-12 10:46:42,994 81816  [           main] DEBUG utils.converters.ByteConverter  -     Converted to Byte value '0'
+2020-12-12 10:46:42,995 81817  [           main] DEBUG .converters.CharacterConverter  - Setting default value:  
+2020-12-12 10:46:42,995 81817  [           main] DEBUG .converters.CharacterConverter  - Converting 'Character' value ' ' to type 'Character'
+2020-12-12 10:46:42,995 81817  [           main] DEBUG .converters.CharacterConverter  -     No conversion required, value is already a Character
+2020-12-12 10:46:42,995 81817  [           main] DEBUG ils.converters.DoubleConverter  - Setting default value: 0
+2020-12-12 10:46:42,996 81818  [           main] DEBUG ils.converters.DoubleConverter  - Converting 'Integer' value '0' to type 'Double'
+2020-12-12 10:46:42,996 81818  [           main] DEBUG ils.converters.DoubleConverter  -     Converted to Double value '0.0'
+2020-12-12 10:46:42,996 81818  [           main] DEBUG tils.converters.FloatConverter  - Setting default value: 0
+2020-12-12 10:46:42,996 81818  [           main] DEBUG tils.converters.FloatConverter  - Converting 'Integer' value '0' to type 'Float'
+2020-12-12 10:46:42,997 81819  [           main] DEBUG tils.converters.FloatConverter  -     Converted to Float value '0.0'
+2020-12-12 10:46:42,997 81819  [           main] DEBUG ls.converters.IntegerConverter  - Setting default value: 0
+2020-12-12 10:46:42,997 81819  [           main] DEBUG ls.converters.IntegerConverter  - Converting 'Integer' value '0' to type 'Integer'
+2020-12-12 10:46:42,997 81819  [           main] DEBUG ls.converters.IntegerConverter  -     No conversion required, value is already a Integer
+2020-12-12 10:46:42,997 81819  [           main] DEBUG utils.converters.LongConverter  - Setting default value: 0
+2020-12-12 10:46:42,998 81820  [           main] DEBUG utils.converters.LongConverter  - Converting 'Integer' value '0' to type 'Long'
+2020-12-12 10:46:42,998 81820  [           main] DEBUG utils.converters.LongConverter  -     Converted to Long value '0'
+2020-12-12 10:46:42,998 81820  [           main] DEBUG tils.converters.ShortConverter  - Setting default value: 0
+2020-12-12 10:46:42,998 81820  [           main] DEBUG tils.converters.ShortConverter  - Converting 'Integer' value '0' to type 'Short'
+2020-12-12 10:46:42,998 81820  [           main] DEBUG tils.converters.ShortConverter  -     Converted to Short value '0'
+2020-12-12 10:46:43,000 81822  [           main] DEBUG ils.converters.StringConverter  - Setting default value: 
+2020-12-12 10:46:43,001 81823  [           main] DEBUG ils.converters.StringConverter  - Converting 'String' value '' to type 'String'
+2020-12-12 10:46:43,017 81839  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Z@72ef8d15
+2020-12-12 10:46:43,018 81840  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'boolean[]' value '[Z@72ef8d15' to type 'boolean[]'
+2020-12-12 10:46:43,018 81840  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a boolean[]
+2020-12-12 10:46:43,018 81840  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [B@6aa8e115
+2020-12-12 10:46:43,018 81840  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'byte[]' value '[B@6aa8e115' to type 'byte[]'
+2020-12-12 10:46:43,019 81841  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a byte[]
+2020-12-12 10:46:43,019 81841  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [C@5e21e98f
+2020-12-12 10:46:43,019 81841  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'char[]' value '[C@5e21e98f' to type 'char[]'
+2020-12-12 10:46:43,020 81842  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a char[]
+2020-12-12 10:46:43,020 81842  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [D@51a9ad5e
+2020-12-12 10:46:43,020 81842  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'double[]' value '[D@51a9ad5e' to type 'double[]'
+2020-12-12 10:46:43,020 81842  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a double[]
+2020-12-12 10:46:43,021 81843  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [F@5f20155b
+2020-12-12 10:46:43,021 81843  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'float[]' value '[F@5f20155b' to type 'float[]'
+2020-12-12 10:46:43,021 81843  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a float[]
+2020-12-12 10:46:43,021 81843  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [I@72ade7e3
+2020-12-12 10:46:43,022 81844  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'int[]' value '[I@72ade7e3' to type 'int[]'
+2020-12-12 10:46:43,022 81844  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a int[]
+2020-12-12 10:46:43,022 81844  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [J@239105a8
+2020-12-12 10:46:43,022 81844  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'long[]' value '[J@239105a8' to type 'long[]'
+2020-12-12 10:46:43,023 81845  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a long[]
+2020-12-12 10:46:43,023 81845  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [S@3fce8fd9
+2020-12-12 10:46:43,023 81845  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'short[]' value '[S@3fce8fd9' to type 'short[]'
+2020-12-12 10:46:43,023 81845  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a short[]
+2020-12-12 10:46:43,024 81846  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.math.BigDecimal;@609bcfb6
+2020-12-12 10:46:43,024 81846  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@609bcfb6' to type 'BigDecimal[]'
+2020-12-12 10:46:43,024 81846  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a BigDecimal[]
+2020-12-12 10:46:43,025 81847  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.math.BigInteger;@7d94beb9
+2020-12-12 10:46:43,025 81847  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@7d94beb9' to type 'BigInteger[]'
+2020-12-12 10:46:43,025 81847  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a BigInteger[]
+2020-12-12 10:46:43,025 81847  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Boolean;@560348e6
+2020-12-12 10:46:43,026 81848  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@560348e6' to type 'Boolean[]'
+2020-12-12 10:46:43,027 81849  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Boolean[]
+2020-12-12 10:46:43,028 81850  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Byte;@1df8b5b8
+2020-12-12 10:46:43,028 81850  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Byte[]' value '[Ljava.lang.Byte;@1df8b5b8' to type 'Byte[]'
+2020-12-12 10:46:43,029 81851  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Byte[]
+2020-12-12 10:46:43,029 81851  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Character;@23202fce
+2020-12-12 10:46:43,029 81851  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Character[]' value '[Ljava.lang.Character;@23202fce' to type 'Character[]'
+2020-12-12 10:46:43,029 81851  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Character[]
+2020-12-12 10:46:43,030 81852  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Double;@37911f88
+2020-12-12 10:46:43,030 81852  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Double[]' value '[Ljava.lang.Double;@37911f88' to type 'Double[]'
+2020-12-12 10:46:43,030 81852  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Double[]
+2020-12-12 10:46:43,030 81852  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Float;@6f1c29b7
+2020-12-12 10:46:43,031 81853  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Float[]' value '[Ljava.lang.Float;@6f1c29b7' to type 'Float[]'
+2020-12-12 10:46:43,031 81853  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Float[]
+2020-12-12 10:46:43,031 81853  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Integer;@4d6025c5
+2020-12-12 10:46:43,031 81853  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Integer[]' value '[Ljava.lang.Integer;@4d6025c5' to type 'Integer[]'
+2020-12-12 10:46:43,032 81854  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Integer[]
+2020-12-12 10:46:43,032 81854  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Long;@7f284218
+2020-12-12 10:46:43,032 81854  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Long[]' value '[Ljava.lang.Long;@7f284218' to type 'Long[]'
+2020-12-12 10:46:43,032 81854  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Long[]
+2020-12-12 10:46:43,033 81855  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Short;@407a7f2a
+2020-12-12 10:46:43,033 81855  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Short[]' value '[Ljava.lang.Short;@407a7f2a' to type 'Short[]'
+2020-12-12 10:46:43,033 81855  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Short[]
+2020-12-12 10:46:43,033 81855  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.String;@4ea5b703
+2020-12-12 10:46:43,034 81856  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'String[]' value '[Ljava.lang.String;@4ea5b703' to type 'String[]'
+2020-12-12 10:46:43,034 81856  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a String[]
+2020-12-12 10:46:43,034 81856  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Class;@2a7ed1f
+2020-12-12 10:46:43,035 81857  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Class[]' value '[Ljava.lang.Class;@2a7ed1f' to type 'Class[]'
+2020-12-12 10:46:43,035 81857  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Class[]
+2020-12-12 10:46:43,035 81857  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.util.Date;@3fa247d1
+2020-12-12 10:46:43,036 81858  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Date[]' value '[Ljava.util.Date;@3fa247d1' to type 'Date[]'
+2020-12-12 10:46:43,036 81858  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Date[]
+2020-12-12 10:46:43,036 81858  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.util.Calendar;@2cb2fc20
+2020-12-12 10:46:43,036 81858  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Calendar[]' value '[Ljava.util.Calendar;@2cb2fc20' to type 'Calendar[]'
+2020-12-12 10:46:43,037 81859  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Calendar[]
+2020-12-12 10:46:43,037 81859  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.io.File;@723e88f9
+2020-12-12 10:46:43,037 81859  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.io.File[]' value '[Ljava.io.File;@723e88f9' to type 'java.io.File[]'
+2020-12-12 10:46:43,037 81859  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.io.File[]
+2020-12-12 10:46:43,037 81859  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Date;@5f0fd5a0
+2020-12-12 10:46:43,038 81860  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@5f0fd5a0' to type 'java.sql.Date[]'
+2020-12-12 10:46:43,038 81860  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Date[]
+2020-12-12 10:46:43,038 81860  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Time;@495ee280
+2020-12-12 10:46:43,038 81860  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@495ee280' to type 'java.sql.Time[]'
+2020-12-12 10:46:43,039 81861  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Time[]
+2020-12-12 10:46:43,039 81861  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Timestamp;@6ea2bc93
+2020-12-12 10:46:43,039 81861  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@6ea2bc93' to type 'java.sql.Timestamp[]'
+2020-12-12 10:46:43,039 81861  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Timestamp[]
+2020-12-12 10:46:43,040 81862  [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.net.URL;@f627d13
+2020-12-12 10:46:43,040 81862  [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.net.URL[]' value '[Ljava.net.URL;@f627d13' to type 'java.net.URL[]'
+2020-12-12 10:46:43,040 81862  [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.net.URL[]
+2020-12-12 10:46:43,057 81879  [           main] DEBUG he.commons.beanutils.BeanUtils  - BeanUtils.copyProperties(AccountBO(id=1, name=认为各位, userId=1, user=User(id=1, username=张三, age=3)), AccountUserDTO(id=null, name=null, usernane=null, age=null))
+2020-12-12 10:46:43,089 81911  [           main] DEBUG he.commons.beanutils.BeanUtils  - BeanUtils.copyProperties(AccountBO(id=2, name=分身乏术, userId=2, user=User(id=2, username=测试set标签2, age=2)), AccountUserDTO(id=null, name=null, usernane=null, age=null))
+2020-12-12 10:46:43,092 81914  [           main] DEBUG he.commons.beanutils.BeanUtils  - BeanUtils.copyProperties(AccountBO(id=3, name=发顺丰, userId=3, user=User(id=3, username=改王五, age=6)), AccountUserDTO(id=null, name=null, usernane=null, age=null))
+2020-12-12 10:46:43,094 81916  [           main] DEBUG he.commons.beanutils.BeanUtils  - BeanUtils.copyProperties(AccountBO(id=4, name=分身乏术, userId=6, user=User(id=6, username=张三丰, age=25)), AccountUserDTO(id=null, name=null, usernane=null, age=null))
+2020-12-12 10:52:53,216 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2020-12-12 10:52:53,361 146    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 10:52:53,361 146    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 10:52:53,362 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 10:52:53,362 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 10:52:53,523 308    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-12 10:52:53,811 596    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 664070838.
+2020-12-12 10:52:53,811 596    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2794eab6]
+2020-12-12 10:52:53,814 599    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select * from account a, t_user u where a.userId = u.id 
+2020-12-12 10:52:53,845 630    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-12 10:53:53,880 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2020-12-12 10:53:54,020 140    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 10:53:54,020 140    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 10:53:54,021 141    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 10:53:54,021 141    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 10:53:54,162 282    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-12 10:53:54,455 575    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 14183023.
+2020-12-12 10:53:54,455 575    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@d86a6f]
+2020-12-12 10:53:54,457 577    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select * from account a, t_user u where a.userId = u.id 
+2020-12-12 10:53:54,490 610    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-12 10:53:54,520 640    [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-12 10:53:54,532 652    [           main] DEBUG ls.converters.BooleanConverter  - Setting default value: false
+2020-12-12 10:53:54,533 653    [           main] DEBUG ls.converters.BooleanConverter  - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-12-12 10:53:54,533 653    [           main] DEBUG ls.converters.BooleanConverter  -     No conversion required, value is already a Boolean
+2020-12-12 10:53:54,535 655    [           main] DEBUG utils.converters.ByteConverter  - Setting default value: 0
+2020-12-12 10:53:54,535 655    [           main] DEBUG utils.converters.ByteConverter  - Converting 'Integer' value '0' to type 'Byte'
+2020-12-12 10:53:54,535 655    [           main] DEBUG utils.converters.ByteConverter  -     Converted to Byte value '0'
+2020-12-12 10:53:54,536 656    [           main] DEBUG .converters.CharacterConverter  - Setting default value:  
+2020-12-12 10:53:54,536 656    [           main] DEBUG .converters.CharacterConverter  - Converting 'Character' value ' ' to type 'Character'
+2020-12-12 10:53:54,536 656    [           main] DEBUG .converters.CharacterConverter  -     No conversion required, value is already a Character
+2020-12-12 10:53:54,537 657    [           main] DEBUG ils.converters.DoubleConverter  - Setting default value: 0
+2020-12-12 10:53:54,537 657    [           main] DEBUG ils.converters.DoubleConverter  - Converting 'Integer' value '0' to type 'Double'
+2020-12-12 10:53:54,537 657    [           main] DEBUG ils.converters.DoubleConverter  -     Converted to Double value '0.0'
+2020-12-12 10:53:54,538 658    [           main] DEBUG tils.converters.FloatConverter  - Setting default value: 0
+2020-12-12 10:53:54,538 658    [           main] DEBUG tils.converters.FloatConverter  - Converting 'Integer' value '0' to type 'Float'
+2020-12-12 10:53:54,538 658    [           main] DEBUG tils.converters.FloatConverter  -     Converted to Float value '0.0'
+2020-12-12 10:53:54,538 658    [           main] DEBUG ls.converters.IntegerConverter  - Setting default value: 0
+2020-12-12 10:53:54,538 658    [           main] DEBUG ls.converters.IntegerConverter  - Converting 'Integer' value '0' to type 'Integer'
+2020-12-12 10:53:54,538 658    [           main] DEBUG ls.converters.IntegerConverter  -     No conversion required, value is already a Integer
+2020-12-12 10:53:54,539 659    [           main] DEBUG utils.converters.LongConverter  - Setting default value: 0
+2020-12-12 10:53:54,539 659    [           main] DEBUG utils.converters.LongConverter  - Converting 'Integer' value '0' to type 'Long'
+2020-12-12 10:53:54,539 659    [           main] DEBUG utils.converters.LongConverter  -     Converted to Long value '0'
+2020-12-12 10:53:54,540 660    [           main] DEBUG tils.converters.ShortConverter  - Setting default value: 0
+2020-12-12 10:53:54,540 660    [           main] DEBUG tils.converters.ShortConverter  - Converting 'Integer' value '0' to type 'Short'
+2020-12-12 10:53:54,540 660    [           main] DEBUG tils.converters.ShortConverter  -     Converted to Short value '0'
+2020-12-12 10:53:54,540 660    [           main] DEBUG converters.BigDecimalConverter  - Setting default value: 0.0
+2020-12-12 10:53:54,541 661    [           main] DEBUG converters.BigDecimalConverter  - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2020-12-12 10:53:54,541 661    [           main] DEBUG converters.BigDecimalConverter  -     No conversion required, value is already a BigDecimal
+2020-12-12 10:53:54,541 661    [           main] DEBUG converters.BigIntegerConverter  - Setting default value: 0
+2020-12-12 10:53:54,541 661    [           main] DEBUG converters.BigIntegerConverter  - Converting 'BigInteger' value '0' to type 'BigInteger'
+2020-12-12 10:53:54,541 661    [           main] DEBUG converters.BigIntegerConverter  -     No conversion required, value is already a BigInteger
+2020-12-12 10:53:54,541 661    [           main] DEBUG ls.converters.BooleanConverter  - Setting default value: false
+2020-12-12 10:53:54,541 661    [           main] DEBUG ls.converters.BooleanConverter  - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-12-12 10:53:54,541 661    [           main] DEBUG ls.converters.BooleanConverter  -     No conversion required, value is already a Boolean
+2020-12-12 10:53:54,542 662    [           main] DEBUG utils.converters.ByteConverter  - Setting default value: 0
+2020-12-12 10:53:54,542 662    [           main] DEBUG utils.converters.ByteConverter  - Converting 'Integer' value '0' to type 'Byte'
+2020-12-12 10:53:54,542 662    [           main] DEBUG utils.converters.ByteConverter  -     Converted to Byte value '0'
+2020-12-12 10:53:54,542 662    [           main] DEBUG .converters.CharacterConverter  - Setting default value:  
+2020-12-12 10:53:54,542 662    [           main] DEBUG .converters.CharacterConverter  - Converting 'Character' value ' ' to type 'Character'
+2020-12-12 10:53:54,542 662    [           main] DEBUG .converters.CharacterConverter  -     No conversion required, value is already a Character
+2020-12-12 10:53:54,542 662    [           main] DEBUG ils.converters.DoubleConverter  - Setting default value: 0
+2020-12-12 10:53:54,546 666    [           main] DEBUG ils.converters.DoubleConverter  - Converting 'Integer' value '0' to type 'Double'
+2020-12-12 10:53:54,546 666    [           main] DEBUG ils.converters.DoubleConverter  -     Converted to Double value '0.0'
+2020-12-12 10:53:54,546 666    [           main] DEBUG tils.converters.FloatConverter  - Setting default value: 0
+2020-12-12 10:53:54,546 666    [           main] DEBUG tils.converters.FloatConverter  - Converting 'Integer' value '0' to type 'Float'
+2020-12-12 10:53:54,547 667    [           main] DEBUG tils.converters.FloatConverter  -     Converted to Float value '0.0'
+2020-12-12 10:53:54,547 667    [           main] DEBUG ls.converters.IntegerConverter  - Setting default value: 0
+2020-12-12 10:53:54,547 667    [           main] DEBUG ls.converters.IntegerConverter  - Converting 'Integer' value '0' to type 'Integer'
+2020-12-12 10:53:54,547 667    [           main] DEBUG ls.converters.IntegerConverter  -     No conversion required, value is already a Integer
+2020-12-12 10:53:54,547 667    [           main] DEBUG utils.converters.LongConverter  - Setting default value: 0
+2020-12-12 10:53:54,547 667    [           main] DEBUG utils.converters.LongConverter  - Converting 'Integer' value '0' to type 'Long'
+2020-12-12 10:53:54,547 667    [           main] DEBUG utils.converters.LongConverter  -     Converted to Long value '0'
+2020-12-12 10:53:54,547 667    [           main] DEBUG tils.converters.ShortConverter  - Setting default value: 0
+2020-12-12 10:53:54,547 667    [           main] DEBUG tils.converters.ShortConverter  - Converting 'Integer' value '0' to type 'Short'
+2020-12-12 10:53:54,547 667    [           main] DEBUG tils.converters.ShortConverter  -     Converted to Short value '0'
+2020-12-12 10:53:54,548 668    [           main] DEBUG ils.converters.StringConverter  - Setting default value: 
+2020-12-12 10:53:54,548 668    [           main] DEBUG ils.converters.StringConverter  - Converting 'String' value '' to type 'String'
+2020-12-12 10:53:54,555 675    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Z@64e7619d
+2020-12-12 10:53:54,556 676    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'boolean[]' value '[Z@64e7619d' to type 'boolean[]'
+2020-12-12 10:53:54,556 676    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a boolean[]
+2020-12-12 10:53:54,556 676    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [B@495ee280
+2020-12-12 10:53:54,556 676    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'byte[]' value '[B@495ee280' to type 'byte[]'
+2020-12-12 10:53:54,556 676    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a byte[]
+2020-12-12 10:53:54,556 676    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [C@4fa1c212
+2020-12-12 10:53:54,556 676    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'char[]' value '[C@4fa1c212' to type 'char[]'
+2020-12-12 10:53:54,556 676    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a char[]
+2020-12-12 10:53:54,556 676    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [D@6ea2bc93
+2020-12-12 10:53:54,556 676    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'double[]' value '[D@6ea2bc93' to type 'double[]'
+2020-12-12 10:53:54,557 677    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a double[]
+2020-12-12 10:53:54,557 677    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [F@3116c353
+2020-12-12 10:53:54,557 677    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'float[]' value '[F@3116c353' to type 'float[]'
+2020-12-12 10:53:54,557 677    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a float[]
+2020-12-12 10:53:54,557 677    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [I@f627d13
+2020-12-12 10:53:54,557 677    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'int[]' value '[I@f627d13' to type 'int[]'
+2020-12-12 10:53:54,557 677    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a int[]
+2020-12-12 10:53:54,557 677    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [J@4e928fbf
+2020-12-12 10:53:54,557 677    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'long[]' value '[J@4e928fbf' to type 'long[]'
+2020-12-12 10:53:54,557 677    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a long[]
+2020-12-12 10:53:54,557 677    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [S@352ff4da
+2020-12-12 10:53:54,558 678    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'short[]' value '[S@352ff4da' to type 'short[]'
+2020-12-12 10:53:54,558 678    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a short[]
+2020-12-12 10:53:54,558 678    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.math.BigDecimal;@3224a577
+2020-12-12 10:53:54,558 678    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@3224a577' to type 'BigDecimal[]'
+2020-12-12 10:53:54,558 678    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a BigDecimal[]
+2020-12-12 10:53:54,558 678    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.math.BigInteger;@2e32ccc5
+2020-12-12 10:53:54,558 678    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@2e32ccc5' to type 'BigInteger[]'
+2020-12-12 10:53:54,558 678    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a BigInteger[]
+2020-12-12 10:53:54,558 678    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Boolean;@748741cb
+2020-12-12 10:53:54,559 679    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@748741cb' to type 'Boolean[]'
+2020-12-12 10:53:54,559 679    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Boolean[]
+2020-12-12 10:53:54,559 679    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Byte;@3e44f2a5
+2020-12-12 10:53:54,559 679    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Byte[]' value '[Ljava.lang.Byte;@3e44f2a5' to type 'Byte[]'
+2020-12-12 10:53:54,559 679    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Byte[]
+2020-12-12 10:53:54,559 679    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Character;@295cf707
+2020-12-12 10:53:54,559 679    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Character[]' value '[Ljava.lang.Character;@295cf707' to type 'Character[]'
+2020-12-12 10:53:54,559 679    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Character[]
+2020-12-12 10:53:54,559 679    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Double;@5f77d0f9
+2020-12-12 10:53:54,559 679    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Double[]' value '[Ljava.lang.Double;@5f77d0f9' to type 'Double[]'
+2020-12-12 10:53:54,559 679    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Double[]
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Float;@463fd068
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Float[]' value '[Ljava.lang.Float;@463fd068' to type 'Float[]'
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Float[]
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Integer;@895e367
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Integer[]' value '[Ljava.lang.Integer;@895e367' to type 'Integer[]'
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Integer[]
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Long;@1b266842
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Long[]' value '[Ljava.lang.Long;@1b266842' to type 'Long[]'
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Long[]
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Short;@7a3793c7
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Short[]' value '[Ljava.lang.Short;@7a3793c7' to type 'Short[]'
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Short[]
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.String;@42b3b079
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'String[]' value '[Ljava.lang.String;@42b3b079' to type 'String[]'
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a String[]
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Class;@651aed93
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Class[]' value '[Ljava.lang.Class;@651aed93' to type 'Class[]'
+2020-12-12 10:53:54,560 680    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Class[]
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.util.Date;@4dd6fd0a
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Date[]' value '[Ljava.util.Date;@4dd6fd0a' to type 'Date[]'
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Date[]
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.util.Calendar;@bb9e6dc
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Calendar[]' value '[Ljava.util.Calendar;@bb9e6dc' to type 'Calendar[]'
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Calendar[]
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.io.File;@6692b6c6
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.io.File[]' value '[Ljava.io.File;@6692b6c6' to type 'java.io.File[]'
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.io.File[]
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Date;@1cd629b3
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@1cd629b3' to type 'java.sql.Date[]'
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Date[]
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Time;@39d76cb5
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@39d76cb5' to type 'java.sql.Time[]'
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Time[]
+2020-12-12 10:53:54,561 681    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Timestamp;@6736fa8d
+2020-12-12 10:53:54,562 682    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@6736fa8d' to type 'java.sql.Timestamp[]'
+2020-12-12 10:53:54,562 682    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Timestamp[]
+2020-12-12 10:53:54,562 682    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.net.URL;@50313382
+2020-12-12 10:53:54,562 682    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.net.URL[]' value '[Ljava.net.URL;@50313382' to type 'java.net.URL[]'
+2020-12-12 10:53:54,562 682    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.net.URL[]
+2020-12-12 10:53:54,568 688    [           main] DEBUG he.commons.beanutils.BeanUtils  - BeanUtils.copyProperties(AccountBO(id=1, name=认为各位, userId=1, user=User(id=1, username=张三, age=3)), AccountUserDTO(id=null, name=null, username=null, age=null))
+2020-12-12 10:53:54,577 697    [           main] DEBUG he.commons.beanutils.BeanUtils  - BeanUtils.copyProperties(AccountBO(id=2, name=分身乏术, userId=2, user=User(id=2, username=测试set标签2, age=2)), AccountUserDTO(id=null, name=null, username=null, age=null))
+2020-12-12 10:53:54,578 698    [           main] DEBUG he.commons.beanutils.BeanUtils  - BeanUtils.copyProperties(AccountBO(id=3, name=发顺丰, userId=3, user=User(id=3, username=改王五, age=6)), AccountUserDTO(id=null, name=null, username=null, age=null))
+2020-12-12 10:53:54,579 699    [           main] DEBUG he.commons.beanutils.BeanUtils  - BeanUtils.copyProperties(AccountBO(id=4, name=分身乏术, userId=6, user=User(id=6, username=张三丰, age=25)), AccountUserDTO(id=null, name=null, username=null, age=null))
+2020-12-12 11:08:03,328 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2020-12-12 11:08:03,484 156    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 11:08:03,485 157    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 11:08:03,485 157    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 11:08:03,485 157    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 11:08:03,662 334    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-12 11:08:03,952 624    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 664070838.
+2020-12-12 11:08:03,952 624    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2794eab6]
+2020-12-12 11:08:03,955 627    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select * from account a, t_user u where a.userId = u.id 
+2020-12-12 11:08:03,986 658    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-12 11:08:04,016 688    [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-12 11:08:16,557 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2020-12-12 11:08:16,704 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 11:08:16,704 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 11:08:16,704 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 11:08:16,704 147    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 11:08:16,849 292    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-12 11:08:17,109 552    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 664070838.
+2020-12-12 11:08:17,109 552    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2794eab6]
+2020-12-12 11:08:17,112 555    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select * from account a, t_user u where a.userId = u.id 
+2020-12-12 11:08:17,147 590    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-12 11:08:17,175 618    [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-12 11:11:16,621 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2020-12-12 11:11:16,751 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 11:11:16,751 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 11:11:16,751 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 11:11:16,751 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-12 11:11:16,904 283    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-12 11:11:17,155 534    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 664070838.
+2020-12-12 11:11:17,155 534    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2794eab6]
+2020-12-12 11:11:17,157 536    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==>  Preparing: select * from account a, t_user u where a.userId = u.id 
+2020-12-12 11:11:17,191 570    [           main] DEBUG s.mapper.AccountMapper.findAll  - ==> Parameters: 
+2020-12-12 11:11:17,217 596    [           main] DEBUG s.mapper.AccountMapper.findAll  - <==      Total: 4
+2020-12-12 11:11:17,232 611    [           main] DEBUG ls.converters.BooleanConverter  - Setting default value: false
+2020-12-12 11:11:17,232 611    [           main] DEBUG ls.converters.BooleanConverter  - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-12-12 11:11:17,232 611    [           main] DEBUG ls.converters.BooleanConverter  -     No conversion required, value is already a Boolean
+2020-12-12 11:11:17,236 615    [           main] DEBUG utils.converters.ByteConverter  - Setting default value: 0
+2020-12-12 11:11:17,236 615    [           main] DEBUG utils.converters.ByteConverter  - Converting 'Integer' value '0' to type 'Byte'
+2020-12-12 11:11:17,236 615    [           main] DEBUG utils.converters.ByteConverter  -     Converted to Byte value '0'
+2020-12-12 11:11:17,237 616    [           main] DEBUG .converters.CharacterConverter  - Setting default value:  
+2020-12-12 11:11:17,237 616    [           main] DEBUG .converters.CharacterConverter  - Converting 'Character' value ' ' to type 'Character'
+2020-12-12 11:11:17,237 616    [           main] DEBUG .converters.CharacterConverter  -     No conversion required, value is already a Character
+2020-12-12 11:11:17,238 617    [           main] DEBUG ils.converters.DoubleConverter  - Setting default value: 0
+2020-12-12 11:11:17,238 617    [           main] DEBUG ils.converters.DoubleConverter  - Converting 'Integer' value '0' to type 'Double'
+2020-12-12 11:11:17,238 617    [           main] DEBUG ils.converters.DoubleConverter  -     Converted to Double value '0.0'
+2020-12-12 11:11:17,239 618    [           main] DEBUG tils.converters.FloatConverter  - Setting default value: 0
+2020-12-12 11:11:17,239 618    [           main] DEBUG tils.converters.FloatConverter  - Converting 'Integer' value '0' to type 'Float'
+2020-12-12 11:11:17,239 618    [           main] DEBUG tils.converters.FloatConverter  -     Converted to Float value '0.0'
+2020-12-12 11:11:17,240 619    [           main] DEBUG ls.converters.IntegerConverter  - Setting default value: 0
+2020-12-12 11:11:17,240 619    [           main] DEBUG ls.converters.IntegerConverter  - Converting 'Integer' value '0' to type 'Integer'
+2020-12-12 11:11:17,240 619    [           main] DEBUG ls.converters.IntegerConverter  -     No conversion required, value is already a Integer
+2020-12-12 11:11:17,241 620    [           main] DEBUG utils.converters.LongConverter  - Setting default value: 0
+2020-12-12 11:11:17,241 620    [           main] DEBUG utils.converters.LongConverter  - Converting 'Integer' value '0' to type 'Long'
+2020-12-12 11:11:17,241 620    [           main] DEBUG utils.converters.LongConverter  -     Converted to Long value '0'
+2020-12-12 11:11:17,242 621    [           main] DEBUG tils.converters.ShortConverter  - Setting default value: 0
+2020-12-12 11:11:17,242 621    [           main] DEBUG tils.converters.ShortConverter  - Converting 'Integer' value '0' to type 'Short'
+2020-12-12 11:11:17,242 621    [           main] DEBUG tils.converters.ShortConverter  -     Converted to Short value '0'
+2020-12-12 11:11:17,243 622    [           main] DEBUG converters.BigDecimalConverter  - Setting default value: 0.0
+2020-12-12 11:11:17,244 623    [           main] DEBUG converters.BigDecimalConverter  - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2020-12-12 11:11:17,244 623    [           main] DEBUG converters.BigDecimalConverter  -     No conversion required, value is already a BigDecimal
+2020-12-12 11:11:17,244 623    [           main] DEBUG converters.BigIntegerConverter  - Setting default value: 0
+2020-12-12 11:11:17,244 623    [           main] DEBUG converters.BigIntegerConverter  - Converting 'BigInteger' value '0' to type 'BigInteger'
+2020-12-12 11:11:17,245 624    [           main] DEBUG converters.BigIntegerConverter  -     No conversion required, value is already a BigInteger
+2020-12-12 11:11:17,245 624    [           main] DEBUG ls.converters.BooleanConverter  - Setting default value: false
+2020-12-12 11:11:17,245 624    [           main] DEBUG ls.converters.BooleanConverter  - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-12-12 11:11:17,245 624    [           main] DEBUG ls.converters.BooleanConverter  -     No conversion required, value is already a Boolean
+2020-12-12 11:11:17,245 624    [           main] DEBUG utils.converters.ByteConverter  - Setting default value: 0
+2020-12-12 11:11:17,245 624    [           main] DEBUG utils.converters.ByteConverter  - Converting 'Integer' value '0' to type 'Byte'
+2020-12-12 11:11:17,245 624    [           main] DEBUG utils.converters.ByteConverter  -     Converted to Byte value '0'
+2020-12-12 11:11:17,245 624    [           main] DEBUG .converters.CharacterConverter  - Setting default value:  
+2020-12-12 11:11:17,245 624    [           main] DEBUG .converters.CharacterConverter  - Converting 'Character' value ' ' to type 'Character'
+2020-12-12 11:11:17,245 624    [           main] DEBUG .converters.CharacterConverter  -     No conversion required, value is already a Character
+2020-12-12 11:11:17,245 624    [           main] DEBUG ils.converters.DoubleConverter  - Setting default value: 0
+2020-12-12 11:11:17,249 628    [           main] DEBUG ils.converters.DoubleConverter  - Converting 'Integer' value '0' to type 'Double'
+2020-12-12 11:11:17,250 629    [           main] DEBUG ils.converters.DoubleConverter  -     Converted to Double value '0.0'
+2020-12-12 11:11:17,250 629    [           main] DEBUG tils.converters.FloatConverter  - Setting default value: 0
+2020-12-12 11:11:17,250 629    [           main] DEBUG tils.converters.FloatConverter  - Converting 'Integer' value '0' to type 'Float'
+2020-12-12 11:11:17,250 629    [           main] DEBUG tils.converters.FloatConverter  -     Converted to Float value '0.0'
+2020-12-12 11:11:17,250 629    [           main] DEBUG ls.converters.IntegerConverter  - Setting default value: 0
+2020-12-12 11:11:17,250 629    [           main] DEBUG ls.converters.IntegerConverter  - Converting 'Integer' value '0' to type 'Integer'
+2020-12-12 11:11:17,250 629    [           main] DEBUG ls.converters.IntegerConverter  -     No conversion required, value is already a Integer
+2020-12-12 11:11:17,250 629    [           main] DEBUG utils.converters.LongConverter  - Setting default value: 0
+2020-12-12 11:11:17,250 629    [           main] DEBUG utils.converters.LongConverter  - Converting 'Integer' value '0' to type 'Long'
+2020-12-12 11:11:17,250 629    [           main] DEBUG utils.converters.LongConverter  -     Converted to Long value '0'
+2020-12-12 11:11:17,250 629    [           main] DEBUG tils.converters.ShortConverter  - Setting default value: 0
+2020-12-12 11:11:17,250 629    [           main] DEBUG tils.converters.ShortConverter  - Converting 'Integer' value '0' to type 'Short'
+2020-12-12 11:11:17,250 629    [           main] DEBUG tils.converters.ShortConverter  -     Converted to Short value '0'
+2020-12-12 11:11:17,251 630    [           main] DEBUG ils.converters.StringConverter  - Setting default value: 
+2020-12-12 11:11:17,251 630    [           main] DEBUG ils.converters.StringConverter  - Converting 'String' value '' to type 'String'
+2020-12-12 11:11:17,257 636    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Z@2205a05d
+2020-12-12 11:11:17,257 636    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'boolean[]' value '[Z@2205a05d' to type 'boolean[]'
+2020-12-12 11:11:17,257 636    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a boolean[]
+2020-12-12 11:11:17,258 637    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [B@72ef8d15
+2020-12-12 11:11:17,258 637    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'byte[]' value '[B@72ef8d15' to type 'byte[]'
+2020-12-12 11:11:17,258 637    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a byte[]
+2020-12-12 11:11:17,258 637    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [C@6aa8e115
+2020-12-12 11:11:17,258 637    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'char[]' value '[C@6aa8e115' to type 'char[]'
+2020-12-12 11:11:17,258 637    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a char[]
+2020-12-12 11:11:17,258 637    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [D@5e21e98f
+2020-12-12 11:11:17,258 637    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'double[]' value '[D@5e21e98f' to type 'double[]'
+2020-12-12 11:11:17,258 637    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a double[]
+2020-12-12 11:11:17,258 637    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [F@51a9ad5e
+2020-12-12 11:11:17,258 637    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'float[]' value '[F@51a9ad5e' to type 'float[]'
+2020-12-12 11:11:17,258 637    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a float[]
+2020-12-12 11:11:17,258 637    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [I@5f20155b
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'int[]' value '[I@5f20155b' to type 'int[]'
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a int[]
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [J@72ade7e3
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'long[]' value '[J@72ade7e3' to type 'long[]'
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a long[]
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [S@239105a8
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'short[]' value '[S@239105a8' to type 'short[]'
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a short[]
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.math.BigDecimal;@3fce8fd9
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@3fce8fd9' to type 'BigDecimal[]'
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a BigDecimal[]
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.math.BigInteger;@609bcfb6
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@609bcfb6' to type 'BigInteger[]'
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a BigInteger[]
+2020-12-12 11:11:17,259 638    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Boolean;@7d94beb9
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@7d94beb9' to type 'Boolean[]'
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Boolean[]
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Byte;@560348e6
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Byte[]' value '[Ljava.lang.Byte;@560348e6' to type 'Byte[]'
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Byte[]
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Character;@1df8b5b8
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Character[]' value '[Ljava.lang.Character;@1df8b5b8' to type 'Character[]'
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Character[]
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Double;@7b993c65
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Double[]' value '[Ljava.lang.Double;@7b993c65' to type 'Double[]'
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Double[]
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Float;@37911f88
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Float[]' value '[Ljava.lang.Float;@37911f88' to type 'Float[]'
+2020-12-12 11:11:17,260 639    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Float[]
+2020-12-12 11:11:17,261 640    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Integer;@6f1c29b7
+2020-12-12 11:11:17,261 640    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Integer[]' value '[Ljava.lang.Integer;@6f1c29b7' to type 'Integer[]'
+2020-12-12 11:11:17,261 640    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Integer[]
+2020-12-12 11:11:17,261 640    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Long;@4d6025c5
+2020-12-12 11:11:17,261 640    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Long[]' value '[Ljava.lang.Long;@4d6025c5' to type 'Long[]'
+2020-12-12 11:11:17,261 640    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Long[]
+2020-12-12 11:11:17,261 640    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Short;@7f284218
+2020-12-12 11:11:17,261 640    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Short[]' value '[Ljava.lang.Short;@7f284218' to type 'Short[]'
+2020-12-12 11:11:17,261 640    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Short[]
+2020-12-12 11:11:17,261 640    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.String;@407a7f2a
+2020-12-12 11:11:17,261 640    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'String[]' value '[Ljava.lang.String;@407a7f2a' to type 'String[]'
+2020-12-12 11:11:17,261 640    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a String[]
+2020-12-12 11:11:17,261 640    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Class;@4ea5b703
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Class[]' value '[Ljava.lang.Class;@4ea5b703' to type 'Class[]'
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Class[]
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.util.Date;@2a7ed1f
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Date[]' value '[Ljava.util.Date;@2a7ed1f' to type 'Date[]'
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Date[]
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.util.Calendar;@3fa247d1
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'Calendar[]' value '[Ljava.util.Calendar;@3fa247d1' to type 'Calendar[]'
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a Calendar[]
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.io.File;@4f4c4b1a
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.io.File[]' value '[Ljava.io.File;@4f4c4b1a' to type 'java.io.File[]'
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.io.File[]
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Date;@723e88f9
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@723e88f9' to type 'java.sql.Date[]'
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Date[]
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Time;@64e7619d
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@64e7619d' to type 'java.sql.Time[]'
+2020-12-12 11:11:17,262 641    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Time[]
+2020-12-12 11:11:17,263 642    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Timestamp;@4fa1c212
+2020-12-12 11:11:17,263 642    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@4fa1c212' to type 'java.sql.Timestamp[]'
+2020-12-12 11:11:17,263 642    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Timestamp[]
+2020-12-12 11:11:17,263 642    [           main] DEBUG tils.converters.ArrayConverter  - Setting default value: [Ljava.net.URL;@3116c353
+2020-12-12 11:11:17,263 642    [           main] DEBUG tils.converters.ArrayConverter  - Converting 'java.net.URL[]' value '[Ljava.net.URL;@3116c353' to type 'java.net.URL[]'
+2020-12-12 11:11:17,263 642    [           main] DEBUG tils.converters.ArrayConverter  -     No conversion required, value is already a java.net.URL[]
+2020-12-12 11:11:17,268 647    [           main] DEBUG he.commons.beanutils.BeanUtils  - BeanUtils.copyProperties(AccountBO(id=1, name=认为各位, userId=1, user=User(id=1, username=张三, age=3)), AccountUserDTO(id=null, name=null))
+2020-12-12 11:11:17,274 653    [           main] DEBUG he.commons.beanutils.BeanUtils  - BeanUtils.copyProperties(AccountBO(id=2, name=分身乏术, userId=2, user=User(id=2, username=测试set标签2, age=2)), AccountUserDTO(id=null, name=null))
+2020-12-12 11:11:17,275 654    [           main] DEBUG he.commons.beanutils.BeanUtils  - BeanUtils.copyProperties(AccountBO(id=3, name=发顺丰, userId=3, user=User(id=3, username=改王五, age=6)), AccountUserDTO(id=null, name=null))
+2020-12-12 11:11:17,275 654    [           main] DEBUG he.commons.beanutils.BeanUtils  - BeanUtils.copyProperties(AccountBO(id=4, name=分身乏术, userId=6, user=User(id=6, username=张三丰, age=25)), AccountUserDTO(id=null, name=null))

@@ -1,0 +1,15 @@
+server:
+  port: 1111
+# redis配置
+spring:
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:
+    lettuce:
+      pool:
+        max-active: 8  #连接池最大连接数 (使用负值没有限制) 默认8
+        max-wait: -1   #连接池最大阻塞等待时间(使用负值没有限制) 默认 -1
+        max-idle: 8  #连接池最大空闲连接 默认8
+        min-idle: 0 #连接池最小空闲连接 默认0
