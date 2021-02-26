@@ -20,6 +20,13 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  *    5. 将切面类和业务逻辑类(目标方法所在的类)都加入到容器中
  *    6. 必须告诉Spring那个类时切面类(给切面类上面加一个注解:@Aspect)
  *    7. 必须配置类加上@EnableAspectJAutoProxy  [开启注解aop模式]
+ *
+ *    AOP原理:
+ *       1. @EnableAspectJAutoProxy---> @Import(AspectJAutoProxyRegistrar.class) 引入的是这个组件
+ *             最后发现给容器中注册的是一个:AnnotationAwareAspectJAutoProxyCreator
+ *       2. AnnotationAwareAspectJAutoProxyCreator
+ *            最后实现的是:  implements   SmartInstantiationAwareBeanPostProcessor, BeanFactoryAware
+ *               那么就关注后置处理器(在bean初始化完成前后做的事情), 自动装配(BeanFactoryAware)
  *  @author: duhao
  * @date: 2021/2/3 16:17
  */
