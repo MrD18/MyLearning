@@ -78,10 +78,10 @@ public class SMConstant {
         //另类投资加密IV值
         String LLTZIvStr = "LLt!n@IVS$r1#2@3";
         //加密
-   /*     String dataStrEnc = SM4EncryptCbc(LLTZKeyStr,LLTZIvStr,"11000014");
-        System.out.println(dataStrEnc);*/
+        String dataStrEnc = SM4EncryptCbc(LLTZKeyStr,LLTZIvStr,"10000763");
+        System.out.println(dataStrEnc);
 //    解密
-        String dataStrDec = SM4DecryptCbc(LLTZKeyStr,LLTZIvStr,"cd9746ee3ccd8acb557bee52e61d6d55");
+        String dataStrDec = SM4DecryptCbc(LLTZKeyStr,LLTZIvStr,dataStrEnc);
         System.out.println(dataStrDec);
     }
 
