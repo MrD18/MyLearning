@@ -53,8 +53,8 @@ public class Generator16ID {
         System.out.println(System.currentTimeMillis());
 
         long time=System.currentTimeMillis();
-        // String token = string2SHA256("alternative-gsgf"+"11000014"+"@N#S3qg6"+time);
-        String token = string2SHA256("alternative-gsgf-oa"+"11000014"+"240~G6t2"+time);
+        String token = string2SHA256("alternative-gsgf-jkb"+"11000116"+"8\"$J}i2O"+time);
+       // String token = string2SHA256("alternative-gsgf-oa"+"11000014"+"240~G6t2"+time);
         System.out.println(time);
         System.out.println(token);
 
