@@ -12,12 +12,25 @@ import java.lang.reflect.Proxy;
 //JDK动态代理，使用JDK Proxy接口的静态方法newProxyInstance()来完成
 // JDK动态代理可以比较完美的解决业务问题，但是它有个明显的问题，即只能实现接口中的方法，
 // Dog类中自定义的see()方法无法通过代理类调用，编译期就会报错，这样就引出了Cglib动态代理
-public class DogDemo4 {
+public class DogDemo4 /*implements InvocationHandler */ {
     public static void main(String[] args) {
         System.out.println("-------这是一条老狗-------");
            Dog originDog=new Dog();
            originDog.eat();
            originDog.work();
+
+     /*   @Override
+        public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+            return null;
+        }*/
+
+     /*      Proxy.newProxyInstance((originDog.getClass().getClassLoader(),originDog.getClass().getInterfaces(), new InvocationHandler() {
+               @Override
+               public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                   return null;
+               }
+           });
+           */
 
               // 使用JDK 动态代理, 需要使用JDK 提供的Proxy
 
@@ -52,5 +65,6 @@ public class DogDemo4 {
          proxyDog.work();
 
     }
+
 
 }
