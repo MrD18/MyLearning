@@ -2,6 +2,7 @@ package com.yss.bean生命周期;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;
+import org.springframework.beans.factory.config.BeanPostProcessor;
 
 /**Spring 创建Bean的生命周期
  *IOC(控制翻转)
@@ -29,7 +30,7 @@ import org.springframework.beans.factory.*;
  *
  */
 
-public class Person implements BeanFactoryAware, BeanNameAware, InitializingBean, DisposableBean {
+public class Person implements BeanFactoryAware, BeanNameAware, InitializingBean, DisposableBean, BeanPostProcessor {
     private  String name;
     private  String address;
     private  String phone;
@@ -117,4 +118,15 @@ public class Person implements BeanFactoryAware, BeanNameAware, InitializingBean
          System.out.println("【destroy-method】调用<bean>的destroy-method属性指定的初始化方法");
             }
 
+    @Override
+    public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
+        System.out.println("Before: 在bean初始化话之前的一些工作..beanName:"+bean);
+        return null;
+    }
+
+    @Override
+    public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
+        System.out.println("After: 在bean初始化话之后的一些工作..beanName:"+bean);
+        return null;
+    }
 }

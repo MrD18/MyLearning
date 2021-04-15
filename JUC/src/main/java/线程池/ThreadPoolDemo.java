@@ -7,7 +7,11 @@ import java.util.concurrent.*;
  * @date: 2020/6/19 9:58
  */
 public class ThreadPoolDemo {
+
+
+
     public static void main(String[] args) {
+
         /**
          * 合理参数设置:
          * CPU密集:

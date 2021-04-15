@@ -20,11 +20,29 @@
         <swagger.version>2.7.0</swagger.version>
         <swagger-bootstrap-ui.version>1.9.6</swagger-bootstrap-ui.version>
         <lombok.version>1.18.8</lombok.version>
+        <xxl-job.version>2.2.1-SNAPSHOT</xxl-job.version>
     </properties>
 
 
 
     <dependencies>
+<!-- xxljob-->
+        <dependency>
+            <groupId>com.xuxueli</groupId>
+            <artifactId>xxl-job-core</artifactId>
+            <version>${xxl-job.version}</version>
+        </dependency>
+    <!-- spring quartz 定时任务 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-quartz</artifactId>
+        </dependency>
+
+    <!--springboot的定时任务-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
 <!-- 实现redis分布式锁-->
         <dependency>
             <groupId>org.redisson</groupId>
