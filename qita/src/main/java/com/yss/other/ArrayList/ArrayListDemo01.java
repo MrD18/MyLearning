@@ -1,7 +1,9 @@
 package com.yss.other.ArrayList;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**看看都继承了啥 实现了啥
  * @author: duhao
@@ -21,19 +23,17 @@ public class ArrayListDemo01 {
      */
 
     public static void main(String[] args) {
+        HashMap<String, String> map1 = new HashMap<>();
+
+        HashMap<String, Map<String,String>> map = new HashMap<>();
+
         List<Object> arrayList = new ArrayList<>();
         arrayList.add(1);
         arrayList.add("测试");
-        arrayList.add(3);
-        arrayList.add(4);
-        arrayList.add(5);
-        arrayList.add(6);
-        arrayList.add(7);
-        arrayList.add(8);
-        arrayList.add(9);
-        arrayList.add(10);
-        arrayList.add(11);
-        System.out.println(arrayList);
+
+      //  map.put("现场经营",arrayList);
+
+        System.out.println(map);
 
 
     }
