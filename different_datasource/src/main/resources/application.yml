@@ -1,0 +1,25 @@
+server:
+  port: 10086
+
+spring:
+  application:
+    name: different_datasoure
+
+ datasource:
+      dynamic:
+      primary: slave   #设置默认的库,默认是master
+      strict: false    # 是否启用严禁模式
+      datasource:
+        master:
+          url: jdbc:mysql://localhost:3306/2020clouddb1?serverTimezone=UTC
+          username: root
+          password: root
+          driver-class-name: com.mysql.jdbc.Driver
+        slave:
+          url: jdbc:mysql://localhost:3306/2020clouddb2?serverTimezone=UTC
+          username: root
+          password: root
+          driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
