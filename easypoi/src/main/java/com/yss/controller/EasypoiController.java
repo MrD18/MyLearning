@@ -9,6 +9,7 @@ import com.yss.dto.Layer;
 import com.yss.dto.Layer2;
 import com.yss.dto.Order;
 import com.yss.service.LayerService;
+import com.yss.utils.ExcelUtils;
 import com.yss.utils.Result;
 import com.yss.utils.StatusCode;
 import com.yss.utils.Upload;
@@ -21,13 +22,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.net.URLEncoder;
 import java.util.*;
 
 /**
@@ -73,12 +72,14 @@ public class EasypoiController {
         List<Layer2> layerList=layerService.getList2();
       log.info("导出excel,导出数据总数为:{}",layerList.size());
          // 生成excel
-        Workbook workbook = ExcelExportUtil.exportExcel(new ExportParams("导出文件信息", "sheet信息"), Layer2.class, layerList);
+      /*  Workbook workbook = ExcelExportUtil.exportExcel(new ExportParams("导出文件信息", "sheet信息"), Layer2.class, layerList);
         response.setHeader("content-disposition","attachment;fileName="+ URLEncoder.encode("导出数据列表.xls","UTF-8"));
         ServletOutputStream outputStream = response.getOutputStream();
         workbook.write(outputStream);
         outputStream.close();
-        workbook.close();
+        workbook.close();*/
+      // 使用工具类导出
+        ExcelUtils.exportExcel(layerList,"导出文件信息","sheet信息",Layer2.class,"导出数据列表.xls",response);
         return new Result(true, StatusCode.OK,"导出成功",layerList);
     }
 
