@@ -1,0 +1,15 @@
+server:
+  port: 10087
+
+
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
+spring:
+  application:
+    name: easypoi_server
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yss?serverTimezone=UTC
+    username: root
+    password: root

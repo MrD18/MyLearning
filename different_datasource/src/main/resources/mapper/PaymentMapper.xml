@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yss.differentdatasource.mapper.PaymentMapper">
+   <select id="getgetPaymentList" resultType="com.yss.differentdatasource.dto.Payment">
+     select * from payment
+   </select>
+
+    <select id="getgetPaymentListDB2" resultType="com.yss.differentdatasource.dto.Payment">
+     select * from payment
+   </select>
+</mapper>
