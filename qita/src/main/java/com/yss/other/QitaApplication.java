@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableCaching
-@EnableScheduling //开启定时任务的注解
+//@EnableScheduling //开启定时任务的注解
 public class QitaApplication {
 
     public static void main(String[] args) {
