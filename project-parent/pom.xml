@@ -38,7 +38,7 @@
         <groovy.version>3.0.4</groovy.version>
 
         <!-- xxl-job-core 作为依赖引入 -->
-        <xxl-job-core-version>2.2.0</xxl-job-core-version>
+        <xxl-job-core-version>2.3.1</xxl-job-core-version>
 
         <lombok.version>1.16.22</lombok.version>
 
